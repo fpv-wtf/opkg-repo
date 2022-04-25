@@ -5,7 +5,7 @@ Custom OPKG repository for the FPV.WTF project.
 Add the following entry to your `opkg.conf`:
 
 ```
-src/gz fpv.wtf http://placeholder.url
+src/gz fpv.wtf http://repo.fpv.wtf/pigeon
 ```
 
 Update `opkg` and list packages from repository:
