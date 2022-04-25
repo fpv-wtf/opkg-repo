@@ -1,0 +1,20 @@
+Package: dinit
+Version: 0.14.0pre
+Architecture: armv7-3.2
+Maintainer: Chris L. stylesuxx@gmail.com
+MD5Sum: 87934fd42b148a4a2328359065d7cf88
+Size: 91097
+Filename: dinit_0.14.0pre_armv7-3.2.ipk
+Description: Service monitoring and init system
+
+
+Package: goggle-led-draw
+Version: 0.1.0
+Architecture: armv7-3.2
+Maintainer: Chris L. <stylesuxx@gmail.com>
+MD5Sum: ee612f5802cde2918a1c4c4f721ca469
+Size: 1774
+Filename: goggle-led-draw_0.1.0_armv7-3.2.ipk
+Description: Draw on the DJI goggle LED display
+
+
