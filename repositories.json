@@ -1,0 +1,14 @@
+[
+  {
+    "repo": "stylesuxx/dji-hd-fpv-dinit",
+    "names": [
+      "dinit"
+    ]
+  },
+  {
+    "repo": "stylesuxx/dji-hd-fpv-led-matrix",
+    "names": [
+      "goggle-led-draw"
+    ]
+  }
+]
