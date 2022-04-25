@@ -6,7 +6,7 @@ all: build pigeon
 
 pigeon:
 	@python3 ./fetch-and-validate.py ${TOKEN} --target build/packages/pigeon --html build/packages/pigeon/index.html
-	$(OPKG_UTILS_PATH)/opkg-make-index build/pigeon/packages > build/packages/pigeon/Packages
+	$(OPKG_UTILS_PATH)/opkg-make-index build/packages/pigeon > build/packages/pigeon/Packages
 	gzip -c build/packages/pigeon/Packages > build/packages/pigeon/Packages.gz
 
 build:
