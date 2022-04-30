@@ -10,5 +10,13 @@
     "names": [
       "goggle-led-draw"
     ]
+  },
+  {
+    "repo": "fpv-wtf/wtfos",
+    "names": [
+      "wtfos",
+      "wtfos-system",
+      "default-margerine-proxy"
+    ]
   }
 ]
