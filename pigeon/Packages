@@ -2,8 +2,8 @@ Package: dinit
 Version: 0.14.0pre
 Architecture: armv7-3.2
 Maintainer: Chris L. stylesuxx@gmail.com
-MD5Sum: 87934fd42b148a4a2328359065d7cf88
-Size: 91097
+MD5Sum: f3907886a587ec37ddd26eccc55e9cd4
+Size: 91187
 Filename: dinit_0.14.0pre_armv7-3.2.ipk
 Description: Service monitoring and init system
 
