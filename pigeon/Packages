@@ -3,8 +3,8 @@ Version: 1.0.0
 Depends: wtfos-system
 Architecture: armv7-3.2
 Maintainer: Joonas Trussmann joonas@batman.ee
-MD5Sum: f72d8b6310887985444a27aa157f4c2f
-Size: 768
+MD5Sum: d7e9d3cc0e2f01712d46e483aeac2fe0
+Size: 766
 Filename: default-margerine-proxy_1.0.0_armv7-3.2.ipk
 Description: Adds the margerine proxy to mkshrc.d for conveniece
 
@@ -33,8 +33,8 @@ Package: wtfos-system
 Version: 0.1.1
 Architecture: armv7-3.2
 Maintainer: Joonas Trussmann joonas@batman.ee
-MD5Sum: 597f8a4f81faf9d7ae228e5dc430a3f7
-Size: 678178
+MD5Sum: db3caff7c1885a97e5e27fbd6cba6af1
+Size: 678182
 Filename: wtfos-system_0.1.1_armv7-3.2.ipk
 Description: wtfos startup patches
 
@@ -44,8 +44,8 @@ Version: 0.1.0
 Depends: wtfos-system, dinit
 Architecture: armv7-3.2
 Maintainer: Joonas Trussmann joonas@batman.ee
-MD5Sum: 39aa4f13930e774a08114c162aee74c3
-Size: 572
+MD5Sum: 9bb3544146003d0b2efca57264c86699
+Size: 574
 Filename: wtfos_0.1.0_armv7-3.2.ipk
 Description: wtfos meta package
 
