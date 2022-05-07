@@ -3,8 +3,8 @@ Version: 1.0.0
 Depends: wtfos-system
 Architecture: armv7-3.2
 Maintainer: Joonas Trussmann joonas@batman.ee
-MD5Sum: a634fc6b08a75976f583ee1aa4888fca
-Size: 764
+MD5Sum: b9388f17d9459d427145fe8b7510c644
+Size: 766
 Filename: default-margerine-proxy_1.0.0_armv7-3.2.ipk
 Description: Adds the margerine proxy to mkshrc.d for conveniece
 
@@ -31,12 +31,12 @@ Description: Draw on the DJI goggle LED display
 
 
 Package: wtfos-system
-Version: 0.1.0
+Version: 0.1.3
 Architecture: armv7-3.2
 Maintainer: Joonas Trussmann joonas@batman.ee
-MD5Sum: e4405842141360ff94d0c0b9db58212c
-Size: 678162
-Filename: wtfos-system_0.1.0_armv7-3.2.ipk
+MD5Sum: 6165432a75004f53fdb11ba8747b857b
+Size: 678937
+Filename: wtfos-system_0.1.3_armv7-3.2.ipk
 Description: wtfos startup patches
 
 
@@ -45,7 +45,7 @@ Version: 0.1.0
 Depends: wtfos-system, dinit
 Architecture: armv7-3.2
 Maintainer: Joonas Trussmann joonas@batman.ee
-MD5Sum: 3594c6fecd354f7aefab7d8250f5e279
+MD5Sum: 75cb78ea274f79a3a77d8e74339b88aa
 Size: 573
 Filename: wtfos_0.1.0_armv7-3.2.ipk
 Description: wtfos meta package
