@@ -18,5 +18,11 @@
       "wtfos-system",
       "default-margerine-proxy"
     ]
+  },
+  {
+    "repo": "fpv-wtf/wtfos-tweaks",
+    "names": [
+      "tweak-prevent-force-upgrade"
+    ]
   }
 ]
