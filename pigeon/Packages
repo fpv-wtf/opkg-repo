@@ -3,7 +3,7 @@ Version: 1.0.0
 Depends: wtfos-system
 Architecture: armv7-3.2
 Maintainer: Joonas Trussmann joonas@batman.ee
-MD5Sum: b9388f17d9459d427145fe8b7510c644
+MD5Sum: 448e6454edf91557fa52a8d92ad69121
 Size: 766
 Filename: default-margerine-proxy_1.0.0_armv7-3.2.ipk
 Description: Adds the margerine proxy to mkshrc.d for conveniece
@@ -30,12 +30,23 @@ Filename: goggle-led-draw_0.1.0_armv7-3.2.ipk
 Description: Draw on the DJI goggle LED display
 
 
+Package: tweak-prevent-force-upgrade
+Version: 0.9.0
+Depends: dinit
+Architecture: armv7-3.2
+Maintainer: Joonas Trussmann joonas@batman.ee
+MD5Sum: 85c4407a3a4a0335b155d65e975c1e8a
+Size: 2314
+Filename: tweak-prevent-force-upgrade_0.9.0_armv7-3.2.ipk
+Description: Prevents accidental force upgrades by connecting to Fly App
+
+
 Package: wtfos-system
 Version: 0.1.3
 Architecture: armv7-3.2
 Maintainer: Joonas Trussmann joonas@batman.ee
-MD5Sum: 6165432a75004f53fdb11ba8747b857b
-Size: 678937
+MD5Sum: a03388c85beb8cc1495c989d911bf583
+Size: 678986
 Filename: wtfos-system_0.1.3_armv7-3.2.ipk
 Description: wtfos startup patches
 
@@ -45,8 +56,8 @@ Version: 0.1.0
 Depends: wtfos-system, dinit
 Architecture: armv7-3.2
 Maintainer: Joonas Trussmann joonas@batman.ee
-MD5Sum: 75cb78ea274f79a3a77d8e74339b88aa
-Size: 573
+MD5Sum: 6a4d0dc03187161a6a5918a6da535b6c
+Size: 571
 Filename: wtfos_0.1.0_armv7-3.2.ipk
 Description: wtfos meta package
 
