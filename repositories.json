@@ -24,5 +24,12 @@
     "names": [
       "tweak-prevent-force-upgrade"
     ]
+  },
+   {
+    "repo": "fpv-wtf/wtfos-modloader",
+    "names": [
+      "wtfos-modloader",
+      "tweak-enable-debug-menu"
+    ]
   }
 ]
