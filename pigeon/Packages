@@ -31,13 +31,13 @@ Description: Draw on the DJI goggle LED display
 
 
 Package: tweak-enable-debug-menu
-Version: 0.1.2
+Version: 0.1.3
 Depends: wtfos-modloader
 Architecture: armv7-3.2
 Maintainer: Joonas Trussmann <joonas@batman.ee>
-MD5Sum: 77747afc2849640ba851609686f38bda
-Size: 2308
-Filename: tweak-enable-debug-menu_0.1.2_armv7-3.2.ipk
+MD5Sum: 6c7da7da9731b7a8338cf94058e75cd0
+Size: 2305
+Filename: tweak-enable-debug-menu_0.1.3_armv7-3.2.ipk
 Description: Enable DJI debug menu on Goggles
 
 
@@ -57,8 +57,8 @@ Version: 0.1.1
 Depends: wtfos-system
 Architecture: armv7-3.2
 Maintainer: Joonas Trussmann <joonas@batman.ee>
-MD5Sum: b0de1203e7d14812373f74fa3cee972f
-Size: 3514
+MD5Sum: df7b5daefd4fc035a7e2dec660279933
+Size: 3524
 Filename: wtfos-modloader_0.1.1_armv7-3.2.ipk
 Description: Configurable LD_PRELOAD injector for DJI services
 
