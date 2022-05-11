@@ -30,6 +30,17 @@ Filename: goggle-led-draw_0.1.0_armv7-3.2.ipk
 Description: Draw on the DJI goggle LED display
 
 
+Package: tweak-enable-debug-menu
+Version: 0.1.0
+Depends: wtfos-modloader
+Architecture: armv7-3.2
+Maintainer: Joonas Trussmann <joonas@batman.ee>
+MD5Sum: fb404dc196475d709d85c6b72e643cc3
+Size: 2108
+Filename: tweak-enable-debug-menu_0.1.0_armv7-3.2.ipk
+Description: Enable DJI debug menu on Goggles
+
+
 Package: tweak-prevent-force-upgrade
 Version: 0.9.0
 Depends: dinit
@@ -39,6 +50,17 @@ MD5Sum: 85c4407a3a4a0335b155d65e975c1e8a
 Size: 2314
 Filename: tweak-prevent-force-upgrade_0.9.0_armv7-3.2.ipk
 Description: Prevents accidental force upgrades by connecting to Fly App
+
+
+Package: wtfos-modloader
+Version: 0.1.1
+Depends: wtfos-system
+Architecture: armv7-3.2
+Maintainer: Joonas Trussmann <joonas@batman.ee>
+MD5Sum: 07ea93a87019ab08d23cf78488dfd897
+Size: 3514
+Filename: wtfos-modloader_0.1.1_armv7-3.2.ipk
+Description: Configurable LD_PRELOAD injector for DJI services
 
 
 Package: wtfos-system
