@@ -10,14 +10,14 @@ Description: Adds the margerine proxy to mkshrc.d for conveniece
 
 
 Package: dinit
-Version: 0.5.5
+Version: 0.14.0
 Depends: wtfos-system
 Architecture: armv7-3.2
-Maintainer: Chris L. <stylesuxx@gmail.com>
-MD5Sum: 9e7424a286b3e9f7aa56328fbe528911
-Size: 91635
-Filename: dinit_0.5.5_armv7-3.2.ipk
-Description: Service monitoring and init system (0.14.0pre)
+Maintainer: Joonas Trussmann <joonas@batman.ee>
+MD5Sum: f5f259f007806328d16ff76bd475e050
+Size: 2651788
+Filename: dinit_0.14.0_armv7-3.2.ipk
+Description: Service monitoring and init system (0.14.0-wtfos)
 
 
 Package: goggle-led-draw
