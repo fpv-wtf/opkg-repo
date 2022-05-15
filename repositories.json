@@ -37,5 +37,12 @@
     "names": [
       "enable-live-audio"
     ]
-  }  
+  },
+  {
+  "repo": "bri3d/msp-osd",
+  "names": [
+    "msp-osd-airside",
+    "msp-osd-goggles"
+    ]
+  }
 ]
