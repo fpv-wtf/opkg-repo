@@ -25,11 +25,17 @@
       "tweak-prevent-force-upgrade"
     ]
   },
-   {
+  {
     "repo": "fpv-wtf/wtfos-modloader",
     "names": [
       "wtfos-modloader",
       "tweak-enable-debug-menu"
     ]
-  }
+  },
+  {
+    "repo": "funneld/djifpv_enable_live_audio",
+    "names": [
+      "enable-live-audio"
+    ]
+  }  
 ]
