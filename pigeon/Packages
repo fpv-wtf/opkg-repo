@@ -20,6 +20,17 @@ Filename: dinit_0.14.0_armv7-3.2.ipk
 Description: Service monitoring and init system (0.14.0-wtfos)
 
 
+Package: enable-live-audio
+Version: 0.1.0
+Depends: wtfos-modloader
+Architecture: armv7-3.2
+Maintainer: funnel
+MD5Sum: 8a65f497b8e0eba01ab616bfeff9ac77
+Size: 3120
+Filename: enable-live-audio_0.1.0_armv7-3.2.ipk
+Description: Enable DJI live audio transmission from Airunit to Goggles
+
+
 Package: goggle-led-draw
 Version: 0.1.0
 Architecture: armv7-3.2
