@@ -46,20 +46,20 @@ Version: 0.1.0
 Depends: dinit
 Architecture: armv7-3.2
 Maintainer: bri3d
-MD5Sum: 9ec7d4337cdfa59ffcf8f99308407a7a
-Size: 5930
+MD5Sum: 08cbf95c82faabaec5edd95ac2cb6a51
+Size: 5860
 Filename: msp-osd-airside_0.1.0_armv7-3.2.ipk
 Description: MSP OSD service for the DJI HD FPV airunit.
 
 
 Package: msp-osd-goggles
-Version: 0.1.0
+Version: 0.1.1
 Depends: dinit
 Architecture: armv7-3.2
 Maintainer: bri3d
-MD5Sum: 9b431ee39c09601dbc78c2734ede6cdf
-Size: 73426
-Filename: msp-osd-goggles_0.1.0_armv7-3.2.ipk
+MD5Sum: d2611249f7067a57ae3d1c4ce598211c
+Size: 73562
+Filename: msp-osd-goggles_0.1.1_armv7-3.2.ipk
 Description: MSP OSD service for the DJI HD FPV goggles.
 
 
