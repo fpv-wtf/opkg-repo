@@ -25,8 +25,8 @@ Version: 0.1.0
 Depends: wtfos-modloader
 Architecture: armv7-3.2
 Maintainer: funnel
-MD5Sum: 1f80bb3fb7b858f668078757dd22a794
-Size: 3116
+MD5Sum: 0c1e8d3e08b23d0d61439a992e256478
+Size: 3193
 Filename: enable-live-audio_0.1.0_armv7-3.2.ipk
 Description: Enable DJI live audio transmission from Airunit to Goggles
 
