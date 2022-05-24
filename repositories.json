@@ -44,5 +44,11 @@
     "msp-osd-airside",
     "msp-osd-goggles"
     ]
+  },
+  {
+    "repo": "funneld/djifpv_auto_start_recording",
+    "names": [
+      "auto-start-recording"
+    ]
   }
 ]
