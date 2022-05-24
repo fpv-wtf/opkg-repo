@@ -1,3 +1,14 @@
+Package: auto-start-recording
+Version: 0.1.0
+Depends: wtfos-modloader
+Architecture: armv7-3.2
+Maintainer: funnel
+MD5Sum: c9a6c2a26a6d316fe2bc9ba37fcfc90c
+Size: 2726
+Filename: auto-start-recording_0.1.0_armv7-3.2.ipk
+Description: Auto starts recording whenever a link with the Airunit is present.
+
+
 Package: default-margerine-proxy
 Version: 1.0.0
 Depends: wtfos-system
