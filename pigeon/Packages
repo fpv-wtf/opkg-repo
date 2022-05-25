@@ -79,8 +79,8 @@ Version: 0.1.4
 Depends: wtfos-modloader
 Architecture: armv7-3.2
 Maintainer: Joonas Trussmann <joonas@batman.ee>
-MD5Sum: 8ca6516aef055ea2a8cc22e18fbcce6e
-Size: 2293
+MD5Sum: accacb967c49ec88b6c60df4855963ab
+Size: 2300
 Filename: tweak-enable-debug-menu_0.1.4_armv7-3.2.ipk
 Description: Enable DJI debug menu on Goggles
 
@@ -97,13 +97,13 @@ Description: Prevents accidental force upgrades by connecting to Fly App
 
 
 Package: wtfos-modloader
-Version: 0.1.2
+Version: 0.1.3
 Depends: wtfos-system
 Architecture: armv7-3.2
 Maintainer: Joonas Trussmann <joonas@batman.ee>
-MD5Sum: 714968ea899e8951f0d876db705a6042
-Size: 3670
-Filename: wtfos-modloader_0.1.2_armv7-3.2.ipk
+MD5Sum: d4a54988cd152a104fe5085cf13b484c
+Size: 3738
+Filename: wtfos-modloader_0.1.3_armv7-3.2.ipk
 Description: Configurable LD_PRELOAD injector for DJI services
 
 
