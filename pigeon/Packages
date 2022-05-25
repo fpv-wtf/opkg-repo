@@ -1,11 +1,11 @@
 Package: auto-start-recording
-Version: 0.1.0
+Version: 0.1.1
 Depends: wtfos-modloader
 Architecture: armv7-3.2
 Maintainer: funnel
-MD5Sum: c9a6c2a26a6d316fe2bc9ba37fcfc90c
-Size: 2726
-Filename: auto-start-recording_0.1.0_armv7-3.2.ipk
+MD5Sum: 783956902b4c2c56dd206fc87fc28054
+Size: 2764
+Filename: auto-start-recording_0.1.1_armv7-3.2.ipk
 Description: Auto starts recording whenever a link with the Airunit is present.
 
 
@@ -32,13 +32,13 @@ Description: Service monitoring and init system (0.14.0-wtfos)
 
 
 Package: enable-live-audio
-Version: 0.1.3
+Version: 0.1.4
 Depends: wtfos-modloader
 Architecture: armv7-3.2
 Maintainer: funnel
-MD5Sum: 5c3b4439304d540f824feeb5d8ea4a62
-Size: 2905
-Filename: enable-live-audio_0.1.3_armv7-3.2.ipk
+MD5Sum: 8c7f339a318084ef696a4dcbcb8ee633
+Size: 2944
+Filename: enable-live-audio_0.1.4_armv7-3.2.ipk
 Description: Enable DJI live audio transmission from Airunit to Goggles
 
 
