@@ -50,5 +50,11 @@
     "names": [
       "auto-start-recording"
     ]
+  },
+  {
+    "repo": "stylesuxx/wtfos-opkg-config",
+    "names": [
+      "wtfos-opkg-config"
+    ]
   }
 ]
