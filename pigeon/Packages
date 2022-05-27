@@ -107,6 +107,16 @@ Filename: wtfos-modloader_0.1.3_armv7-3.2.ipk
 Description: Configurable LD_PRELOAD injector for DJI services
 
 
+Package: wtfos-opkg-config
+Version: 0.3.0
+Architecture: armv7-3.2
+Maintainer: Chris L. <stylesuxx@gmail.com>
+MD5Sum: 8aad03d43165ee72f9e9b7e61b0166b4
+Size: 1158
+Filename: wtfos-opkg-config_armv7-3.2.ipk
+Description: Setup opkg.conf based on your hardware.
+
+
 Package: wtfos-system
 Version: 0.1.5
 Architecture: armv7-3.2
