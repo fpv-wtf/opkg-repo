@@ -5,7 +5,7 @@ OPKG_UTILS_PATH = build/$(OPKG_UTILS_VERSION)
 all: build pigeon
 
 pigeon:
-	@python3 ./fetch-and-validate.py ${TOKEN} --target build/packages/pigeon --html build/packages/pigeon/index.html
+	@python3 ./fetch-and-validate.py ${TOKEN} --template ./package-list.html --target build/packages/pigeon --html build/packages/pigeon/index.html
 	$(OPKG_UTILS_PATH)/opkg-make-index build/packages/pigeon > build/packages/pigeon/Packages
 	gzip -c build/packages/pigeon/Packages > build/packages/pigeon/Packages.gz
 

@@ -36,6 +36,7 @@ def build_html_rows(items):
     for item in items:
         rows += "<tr>"
         rows += '<td><a href="%s">%s</a></td>' % (item["ipk"], item["Package"])
+        rows += '<td>%s</td>' % (item["Architecture"] or '')
         rows += '<td>%s</td>' % (item["Version"] or '')
         rows += '<td>%s</td>' % (item["Description"] or '')
         rows += "</tr>"
