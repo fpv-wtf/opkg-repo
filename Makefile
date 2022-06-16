@@ -3,6 +3,7 @@ OPKG_UTILS_URL = https://git.yoctoproject.org/opkg-utils/snapshot/$(OPKG_UTILS_V
 OPKG_UTILS_PATH = build/$(OPKG_UTILS_VERSION)
 
 all: build pigeon
+	cp index.html build/packages/index.html
 
 pigeon:
 	@python3 ./fetch-and-validate.py ${TOKEN} --template ./package-list.html --target build/packages/pigeon --html build/packages/pigeon/index.html
