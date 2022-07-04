@@ -32,14 +32,14 @@ Description: Service monitoring and init system (0.14.0-wtfos)
 
 
 Package: enable-live-audio
-Version: 0.1.4
+Version: 0.1.5
 Depends: wtfos-modloader
-Architecture: armv7-3.2
+Architecture: pigeon-glasses
 Maintainer: funnel
-MD5Sum: 8c7f339a318084ef696a4dcbcb8ee633
-Size: 2944
-Filename: enable-live-audio_0.1.4_armv7-3.2.ipk
-Description: Enable DJI live audio transmission from Airunit to Goggles
+MD5Sum: e2c7604563ecbdf7d68407753dd83bc2
+Size: 2999
+Filename: enable-live-audio_0.1.5_pigeon-glasses.ipk
+Description: Enable DJI live audio transmission from Airunit to Goggles. Currently only for Goggles V1 and standard Airunit with an integrated microphone.
 
 
 Package: goggle-led-draw
