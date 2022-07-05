@@ -55,5 +55,11 @@
     "names": [
       "wtfos-opkg-config"
     ]
+  },
+  {
+    "repo": "funneld/djifpv_boost_bitrate",
+    "names": [
+      "boost-bitrate"
+    ]
   }
 ]
