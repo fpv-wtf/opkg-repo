@@ -1,12 +1,23 @@
 Package: auto-start-recording
-Version: 0.1.1
+Version: 0.1.2
 Depends: wtfos-modloader
-Architecture: armv7-3.2
+Architecture: pigeon-glasses
 Maintainer: funnel
-MD5Sum: 783956902b4c2c56dd206fc87fc28054
-Size: 2764
-Filename: auto-start-recording_0.1.1_armv7-3.2.ipk
+MD5Sum: 5742b3ebb1616d8f3929407e6ec3b33e
+Size: 2771
+Filename: auto-start-recording_0.1.2_pigeon-glasses.ipk
 Description: Auto starts recording whenever a link with the Airunit is present.
+
+
+Package: boost-bitrate
+Version: 0.0.2
+Depends: wtfos-modloader
+Architecture: pigeon-glasses
+Maintainer: funnel
+MD5Sum: bd2a77399d0ad4defc21403170955504
+Size: 2760
+Filename: boost-bitrate_0.0.2_pigeon-glasses.ipk
+Description: Boosts bitrate to 30/60Mbits/s.
 
 
 Package: default-margerine-proxy
