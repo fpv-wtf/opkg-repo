@@ -64,24 +64,24 @@ Description: Draw on the DJI goggle LED display
 
 
 Package: msp-osd
-Version: 0.2.0
+Version: 0.3.0
 Depends: dinit wtfos-opkg-config
 Architecture: pigeon-airside
 Maintainer: bri3d
-MD5Sum: 149280021caa5cef48650bc120e28045
-Size: 5877
-Filename: msp-osd_0.2.0_pigeon-airside.ipk
+MD5Sum: 8fff59cb1a7357f5ef607171a3af5797
+Size: 6702
+Filename: msp-osd_0.3.0_pigeon-airside.ipk
 Description: MSP OSD service for the DJI HD FPV airunit.
 
 
 Package: msp-osd
-Version: 0.2.0
+Version: 0.3.0
 Depends: dinit wtfos-opkg-config
 Architecture: pigeon-glasses
 Maintainer: bri3d
-MD5Sum: 0bda841fec6cc9daacd90d0180dd3548
-Size: 73549
-Filename: msp-osd_0.2.0_pigeon-glasses.ipk
+MD5Sum: 041101df3dcb2bbdd82777ea1f751669
+Size: 73982
+Filename: msp-osd_0.3.0_pigeon-glasses.ipk
 Description: MSP OSD service for the DJI HD FPV goggles. Press back button for five seconds to enter/exit MSP OSD mode.
 
 
