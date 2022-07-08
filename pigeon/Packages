@@ -10,14 +10,14 @@ Description: Auto starts recording whenever a link with the Airunit is present.
 
 
 Package: boost-bitrate
-Version: 0.0.2
+Version: 0.0.3
 Depends: wtfos-modloader
 Architecture: pigeon-glasses
 Maintainer: funnel
-MD5Sum: bd2a77399d0ad4defc21403170955504
-Size: 2760
-Filename: boost-bitrate_0.0.2_pigeon-glasses.ipk
-Description: Boosts bitrate to 30/60Mbits/s.
+MD5Sum: 5e0bb8c09b30b4bcaa0c6deeb53d318d
+Size: 2843
+Filename: boost-bitrate_0.0.3_pigeon-glasses.ipk
+Description: Increases bitrate up to 30/60Mbits/s.
 
 
 Package: default-margerine-proxy
@@ -43,13 +43,13 @@ Description: Service monitoring and init system (0.14.0-wtfos)
 
 
 Package: enable-live-audio
-Version: 0.1.5
+Version: 0.1.6
 Depends: wtfos-modloader
 Architecture: pigeon-glasses
 Maintainer: funnel
-MD5Sum: e2c7604563ecbdf7d68407753dd83bc2
-Size: 2999
-Filename: enable-live-audio_0.1.5_pigeon-glasses.ipk
+MD5Sum: 6878bc94493b01aa199a7ac12cf77ff5
+Size: 3100
+Filename: enable-live-audio_0.1.6_pigeon-glasses.ipk
 Description: Enable DJI live audio transmission from Airunit to Goggles. Currently only for Goggles V1 and standard Airunit with an integrated microphone.
 
 
