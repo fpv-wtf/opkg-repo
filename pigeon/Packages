@@ -53,6 +53,17 @@ Filename: enable-live-audio_0.1.6_pigeon-glasses.ipk
 Description: Enable DJI live audio transmission from Airunit to Goggles. Currently only for Goggles V1 and standard Airunit with an integrated microphone.
 
 
+Package: fan-control
+Version: 0.1.1
+Depends: dinit wtfos-opkg-config
+Architecture: pigeon-glasses
+Maintainer: bri3d
+MD5Sum: e03f12b278234b9210edf8fde181fda5
+Size: 4245
+Filename: fan-control_0.1.1_pigeon-glasses.ipk
+Description: Service to control fan on goggles even when dji process is not running
+
+
 Package: goggle-led-draw
 Version: 0.1.0
 Architecture: armv7-3.2
