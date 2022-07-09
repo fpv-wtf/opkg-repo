@@ -61,5 +61,11 @@
     "names": [
       "boost-bitrate"
     ]
+  },
+  {
+  "repo": "bri3d/dji-fan-control",
+  "names": [
+    "fan-control"
+    ]
   }
 ]
