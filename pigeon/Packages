@@ -25,8 +25,8 @@ Version: 1.0.0
 Depends: wtfos-system
 Architecture: armv7-3.2
 Maintainer: Joonas Trussmann joonas@batman.ee
-MD5Sum: 7b21f4a6413258f060b307326d1e3872
-Size: 767
+MD5Sum: ac1eaa64888d8d32c11b9c7546a15c46
+Size: 766
 Filename: default-margerine-proxy_1.0.0_armv7-3.2.ipk
 Description: Adds the margerine proxy to mkshrc.d for conveniece
 
@@ -143,20 +143,31 @@ Package: wtfos-system
 Version: 0.1.6
 Architecture: armv7-3.2
 Maintainer: Joonas Trussmann joonas@batman.ee
-MD5Sum: cbf80989d452823817466bff8d6d81cf
-Size: 679607
+MD5Sum: df0b88841bf018aecd604d0ddd54cb21
+Size: 679628
 Filename: wtfos-system_0.1.6_armv7-3.2.ipk
 Description: wtfos startup patches
 
 
 Package: wtfos
-Version: 0.3.2
+Version: 0.3.3
 Depends: wtfos-system, wtfos-opkg-config, dinit
-Architecture: armv7-3.2
+Architecture: pigeon-airside
 Maintainer: Joonas Trussmann joonas@batman.ee
-MD5Sum: 6103313501b1e8777a9510e2f60d4170
+MD5Sum: 7ed44652d959766c4cebf2a4aa16bfe3
 Size: 585
-Filename: wtfos_0.3.2_armv7-3.2.ipk
+Filename: wtfos_0.3.3_pigeon-airside.ipk
+Description: wtfos meta package
+
+
+Package: wtfos
+Version: 0.3.3
+Depends: wtfos-system, wtfos-opkg-config, fan-control, dinit
+Architecture: pigeon-glasses
+Maintainer: Joonas Trussmann joonas@batman.ee
+MD5Sum: a7e75c522674c4d0562589e49738aa0c
+Size: 593
+Filename: wtfos_0.3.3_pigeon-glasses.ipk
 Description: wtfos meta package
 
 
