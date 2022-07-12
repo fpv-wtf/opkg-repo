@@ -130,11 +130,11 @@ Description: Configurable LD_PRELOAD injector for DJI services
 
 
 Package: wtfos-opkg-config
-Version: 0.3.0
+Version: 0.4.0
 Architecture: armv7-3.2
 Maintainer: Chris L. <stylesuxx@gmail.com>
-MD5Sum: 8aad03d43165ee72f9e9b7e61b0166b4
-Size: 1158
+MD5Sum: 5664f5069aa00a0d0cbcf18e573d050e
+Size: 1227
 Filename: wtfos-opkg-config_armv7-3.2.ipk
 Description: Setup opkg.conf based on your hardware.
 
