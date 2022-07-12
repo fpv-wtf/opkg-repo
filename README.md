@@ -42,5 +42,14 @@ Once the deployment runs it will check the latest release of your project, fetch
 If everything checks out a new index is build.
 Otherwise the build fails and the offending package will be visible in the build logs.
 
+### Available architectures
+To limit the systems on which your package can be installed, add one of the architectures (from general to specific):
+
+* `pigeon-all`
+* `pigeon-glasses` (v1 & v2)
+* `pigeon-glasses-v1` or `pigeon-glasses-v2`
+* `pigeon-airside` (OG and Lite)
+* `pigeon-airside-au` or `pigeon-airside-lite`
+
 ### IPK template
 You can check out the [IPK example](https://github.com/stylesuxx/ipk-example) repository. It provides a template in regards to folder structure, a `Makefile` and a workflow to automatically build IPK packages via Github Actions.
