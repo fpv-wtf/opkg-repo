@@ -65,13 +65,14 @@ Description: Service to control fan on goggles even when dji process is not runn
 
 
 Package: goggle-led-draw
-Version: 0.1.0
+Version: 0.2.0
 Architecture: armv7-3.2
 Maintainer: Chris L. <stylesuxx@gmail.com>
-MD5Sum: ee612f5802cde2918a1c4c4f721ca469
-Size: 1774
-Filename: goggle-led-draw_0.1.0_armv7-3.2.ipk
+MD5Sum: 2e07a5936e3085ec651816c968d245bc
+Size: 1800
+Filename: goggle-led-draw_0.2.0_armv7-3.2.ipk
 Description: Draw on the DJI goggle LED display
+HomePage: https://github.com/stylesuxx/dji-hd-fpv-led-matrix
 
 
 Package: msp-osd
