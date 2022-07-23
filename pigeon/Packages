@@ -43,14 +43,15 @@ Description: Service monitoring and init system (0.14.0-wtfos)
 
 
 Package: enable-live-audio
-Version: 0.1.7
+Version: 0.1.8
 Depends: wtfos-modloader
 Architecture: pigeon-glasses-v1
 Maintainer: funnel
-MD5Sum: a3f7692f420ee4f319b5b67e7f50e710
-Size: 3106
-Filename: enable-live-audio_0.1.7_pigeon-glasses-v1.ipk
+MD5Sum: cbd1fc902ea4090b517f881d55f96af2
+Size: 3307
+Filename: enable-live-audio_0.1.8_pigeon-glasses-v1.ipk
 Description: Enable DJI live audio transmission from Airunit to Goggles. Currently only for Goggles V1 and standard Airunit with an integrated microphone.
+HomePage: https://github.com/funneld/djifpv_enable_live_audio
 
 
 Package: fan-control
