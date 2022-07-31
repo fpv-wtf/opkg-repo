@@ -1,11 +1,11 @@
 Package: auto-start-recording
-Version: 0.1.2
+Version: 0.1.3
 Depends: wtfos-modloader
 Architecture: pigeon-glasses
 Maintainer: funnel
-MD5Sum: 5742b3ebb1616d8f3929407e6ec3b33e
-Size: 2771
-Filename: auto-start-recording_0.1.2_pigeon-glasses.ipk
+MD5Sum: 49a9fd561733d5436e35889f5036fe0c
+Size: 3149
+Filename: auto-start-recording_0.1.3_pigeon-glasses.ipk
 Description: Auto starts recording whenever a link with the Airunit is present.
 
 
