@@ -110,13 +110,13 @@ Description: Enable DJI debug menu on Goggles
 
 
 Package: tweak-prevent-force-upgrade
-Version: 0.9.2
+Version: 0.9.3
 Depends: dinit
 Architecture: pigeon-glasses-v2
 Maintainer: Joonas Trussmann joonas@batman.ee
-MD5Sum: 594d466b5ff337fd781cdc105f8c9ae9
-Size: 2344
-Filename: tweak-prevent-force-upgrade_0.9.2_pigeon-glasses-v2.ipk
+MD5Sum: ef8d39f4a73898aaabbeb877af91061a
+Size: 2348
+Filename: tweak-prevent-force-upgrade_0.9.3_pigeon-glasses-v2.ipk
 Description: Prevents accidental force upgrades on Goggles v2 by connecting to Fly App in DJI FPV Drone mode.
 
 
