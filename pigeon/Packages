@@ -10,14 +10,15 @@ Description: Auto starts recording whenever a link with the Airunit is present.
 
 
 Package: boost-bitrate
-Version: 0.0.3
+Version: 0.0.4
 Depends: wtfos-modloader
 Architecture: pigeon-glasses
 Maintainer: funnel
-MD5Sum: 5e0bb8c09b30b4bcaa0c6deeb53d318d
-Size: 2843
-Filename: boost-bitrate_0.0.3_pigeon-glasses.ipk
+MD5Sum: 0194b96cceec7e3b75560ecf47c81c41
+Size: 2906
+Filename: boost-bitrate_0.0.4_pigeon-glasses.ipk
 Description: Increases bitrate up to 30/60Mbits/s.
+HomePage: https://github.com/funneld/djifpv_boost_bitrate
 
 
 Package: default-margerine-proxy
