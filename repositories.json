@@ -67,5 +67,11 @@
   "names": [
     "fan-control"
     ]
+  },
+  {
+    "repo": "fpv-wtf/wtfos-package-config",
+    "names": [
+      "wtfos-package-config"
+    ]
   }
 ]
