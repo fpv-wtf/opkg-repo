@@ -14,8 +14,20 @@ Update `opkg` and list packages from repository:
 opkg update
 ```
 
-## Adding your package
-Fork the repository and add your Github project to `repositories.json`, then submit a PR. The package index will be rebuilt and your packages will be automatically added once your PR is merged into master.
+## Contribute
+Your contributions are very welcome, there are a lot of ways to contribute to this project:
+
+* [File issues](https://github.com/fpv-wtf/opkg-repo/issues/new) about bugs you find or features you would like to see implemented
+* [Submit a PR](https://github.com/fpv-wtf/opkg-repo/compare) for bugs you have fixed or features you have implemented
+* [Add your own package](#adding-your-package)
+
+### Submitting a Pull Request
+Your bugfixes and improvements are always welcome. If you are unsure about a new feature, feel free to [open an issue](https://github.com/fpv-wtf/opkg-repo/issues/new) for discussion.
+
+When submitting your PR, please submit it against the **develop** branch of this repository.
+
+### Adding your package
+Fork the repository and add your Github project to `repositories.json`, then [submit a PR](#submitting-a-pull-request). The package index will be rebuilt and your packages will be automatically added once your PR has been merged into master.
 
 Each entry consists of two fields:
 
@@ -53,3 +65,10 @@ To limit the systems on which your package can be installed, add one of the arch
 
 ### IPK template
 You can check out the [IPK example](https://github.com/stylesuxx/ipk-example) repository. It provides a template in regards to folder structure, a `Makefile` and a workflow to automatically build IPK packages via Github Actions.
+
+### Licensing
+Please make sure that the package you are submitting has an open source license attached to it (preferably GPL V3). Pull Requests for packages without a license (or a too restrictive licence) will be rejected.
+
+> Please be aware that we will fork your repository to the organisation and sync it regularly in order to have a backup of your code. This repository will be set to private and only be activated in case you should ever pull your code or decide to change your packages license to something restrictive, having us remove your package from the official repository.
+
+You can - at any point - run your own repository though (this code is GPL V3) if you are not happy with the licencing term. If you decide to do so make sure that you have some way of supporting your users, since there will be no official support for third party repositories.
