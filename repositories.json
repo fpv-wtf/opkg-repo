@@ -33,33 +33,15 @@
     ]
   },
   {
-    "repo": "funneld/djifpv_enable_live_audio",
-    "names": [
-      "enable-live-audio"
-    ]
-  },
-  {
   "repo": "bri3d/msp-osd",
   "names": [
     "msp-osd"
     ]
   },
   {
-    "repo": "funneld/djifpv_auto_start_recording",
-    "names": [
-      "auto-start-recording"
-    ]
-  },
-  {
     "repo": "fpv-wtf/wtfos-opkg-config",
     "names": [
       "wtfos-opkg-config"
-    ]
-  },
-  {
-    "repo": "funneld/djifpv_boost_bitrate",
-    "names": [
-      "boost-bitrate"
     ]
   },
   {
