@@ -1,26 +1,3 @@
-Package: auto-start-recording
-Version: 0.1.4
-Depends: wtfos-modloader
-Architecture: pigeon-glasses
-Maintainer: funnel
-MD5Sum: 160029c6d3b2d5e7fa01e43f6d80bc1f
-Size: 3006
-Filename: auto-start-recording_0.1.4_pigeon-glasses.ipk
-Description: Auto starts recording whenever a link with the Airunit is present.
-
-
-Package: boost-bitrate
-Version: 0.0.5
-Depends: wtfos-modloader
-Architecture: pigeon-glasses
-Maintainer: funnel
-MD5Sum: 63e412736c5950ffa3dfd6705f737446
-Size: 2961
-Filename: boost-bitrate_0.0.5_pigeon-glasses.ipk
-Description: Increases bitrate up to 30/60Mbits/s, possibly at the cost of higher latency, worse penetration and higher bitrate instability.
-HomePage: https://github.com/funneld/djifpv_boost_bitrate
-
-
 Package: default-margerine-proxy
 Version: 1.0.0
 Depends: wtfos-system
@@ -41,18 +18,6 @@ MD5Sum: f5f259f007806328d16ff76bd475e050
 Size: 2651788
 Filename: dinit_0.14.0_armv7-3.2.ipk
 Description: Service monitoring and init system (0.14.0-wtfos)
-
-
-Package: enable-live-audio
-Version: 0.1.8
-Depends: wtfos-modloader
-Architecture: pigeon-glasses-v1
-Maintainer: funnel
-MD5Sum: cbd1fc902ea4090b517f881d55f96af2
-Size: 3307
-Filename: enable-live-audio_0.1.8_pigeon-glasses-v1.ipk
-Description: Enable DJI live audio transmission from Airunit to Goggles. Currently only for Goggles V1 and standard Airunit with an integrated microphone.
-HomePage: https://github.com/funneld/djifpv_enable_live_audio
 
 
 Package: fan-control
