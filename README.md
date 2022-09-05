@@ -1,5 +1,7 @@
 # FPV.WTF OPKG Repository
-Custom OPKG repository for the FPV.WTF project.
+> Custom OPKG repository for the FPV.WTF project.
+
+This is the official reposiotry from which the [WTFOS configurator](https://github.com/fpv-wtf/wtfos-configurator) pulls its packages.
 
 ## Usage
 Add the following entry to your `opkg.conf`:
@@ -18,8 +20,9 @@ opkg update
 Your contributions are very welcome, there are a lot of ways to contribute to this project:
 
 * [File issues](https://github.com/fpv-wtf/opkg-repo/issues/new) about bugs you find or features you would like to see implemented
-* [Submit a PR](https://github.com/fpv-wtf/opkg-repo/compare) for bugs you have fixed or features you have implemented
+* [Submit pull requests](https://github.com/fpv-wtf/opkg-repo/compare) for bugs you have fixed or features you have implemented
 * [Add your own package](#adding-your-package)
+* [Join us on Discord](https://discord.com/invite/3rpnBBJKtU) - we have a big (and steadily growing) Discord community and are more than happy to discuss ideas and feedback there
 
 ### Submitting a Pull Request
 Your bugfixes and improvements are always welcome. If you are unsure about a new feature, feel free to [open an issue](https://github.com/fpv-wtf/opkg-repo/issues/new) for discussion.
