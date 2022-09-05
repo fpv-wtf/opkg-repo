@@ -72,6 +72,4 @@ You can check out the [IPK example](https://github.com/stylesuxx/ipk-example) re
 ### Licensing
 Please make sure that the package you are submitting has an open source license attached to it (preferably GPL V3). Pull Requests for packages without a license (or a too restrictive licence) will be rejected.
 
-> Please be aware that we will fork your repository to the organisation and sync it regularly in order to have a backup of your code. This repository will be set to private and only be activated in case you should ever pull your code or decide to change your packages license to something restrictive, having us remove your package from the official repository.
-
 You can - at any point - run your own repository though (this code is GPL V3) if you are not happy with the licencing term. If you decide to do so make sure that you have some way of supporting your users, since there will be no official support for third party repositories.
