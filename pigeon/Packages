@@ -33,11 +33,11 @@ Description: Service to control fan on goggles even when dji process is not runn
 
 Package: goggle-led-draw
 Version: 0.2.0
-Architecture: armv7-3.2
+Architecture: pigeon-glasses
 Maintainer: Chris L. <stylesuxx@gmail.com>
-MD5Sum: 2e07a5936e3085ec651816c968d245bc
-Size: 1800
-Filename: goggle-led-draw_0.2.0_armv7-3.2.ipk
+MD5Sum: 7edb8bae9610096a48dde4c5504af20a
+Size: 1904
+Filename: goggle-led-draw_0.2.0_pigeon-glasses.ipk
 Description: Draw on the DJI goggle LED display
 HomePage: https://github.com/stylesuxx/dji-hd-fpv-led-matrix
 
@@ -65,13 +65,13 @@ Description: MSP OSD service for the DJI HD FPV goggles.
 
 
 Package: tweak-enable-debug-menu
-Version: 0.1.4
+Version: 0.1.5
 Depends: wtfos-modloader
-Architecture: armv7-3.2
+Architecture: pigeon-glasses
 Maintainer: Joonas Trussmann <joonas@batman.ee>
-MD5Sum: accacb967c49ec88b6c60df4855963ab
-Size: 2300
-Filename: tweak-enable-debug-menu_0.1.4_armv7-3.2.ipk
+MD5Sum: f4bf22ca85641c8002eab6a1c4e662a3
+Size: 2303
+Filename: tweak-enable-debug-menu_0.1.5_pigeon-glasses.ipk
 Description: Enable DJI debug menu on Goggles
 
 
@@ -87,13 +87,13 @@ Description: Prevents accidental force upgrades on Goggles v2 by connecting to F
 
 
 Package: wtfos-modloader
-Version: 0.1.3
+Version: 0.1.4
 Depends: wtfos-system
 Architecture: armv7-3.2
 Maintainer: Joonas Trussmann <joonas@batman.ee>
-MD5Sum: d4a54988cd152a104fe5085cf13b484c
-Size: 3738
-Filename: wtfos-modloader_0.1.3_armv7-3.2.ipk
+MD5Sum: 2688d184d0be7274b79378b0bf37bca4
+Size: 3776
+Filename: wtfos-modloader_0.1.4_armv7-3.2.ipk
 Description: Configurable LD_PRELOAD injector for DJI services
 
 
@@ -101,8 +101,8 @@ Package: wtfos-opkg-config
 Version: 0.4.0
 Architecture: armv7-3.2
 Maintainer: Chris L. <stylesuxx@gmail.com>
-MD5Sum: 5664f5069aa00a0d0cbcf18e573d050e
-Size: 1227
+MD5Sum: d44deda33ebd88fad8f3d935810023e2
+Size: 1232
 Filename: wtfos-opkg-config_armv7-3.2.ipk
 Description: Setup opkg.conf based on your hardware.
 
