@@ -55,5 +55,11 @@
     "names": [
       "wtfos-package-config"
     ]
+  },
+  {
+    "repo": "shambler123/wtf_dji_fpv_live_audio",
+    "names": [
+      "live-audio"
+    ]
   }
 ]
