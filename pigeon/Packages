@@ -31,6 +31,18 @@ Description: Draw on the DJI goggle LED display
 HomePage: https://github.com/stylesuxx/dji-hd-fpv-led-matrix
 
 
+Package: live-audio
+Version: 1.0.0
+Depends: wtfos-modloader
+Architecture: pigeon-glasses-v1
+Maintainer: shambler
+MD5Sum: 99e1985b6b45ce5eab7313b4a861f289
+Size: 3393
+Filename: live-audio_1.0.0_pigeon-glasses-v1.ipk
+Description: This package enables live audio on DJI FPV v1, with the air unit vista has no mic!
+HomePage: https://github.com/shambler123/wtf_dji_fpv_live_audio/
+
+
 Package: msp-osd
 Version: 0.6.6
 Depends: dinit, wtfos-opkg-config, wtfos-package-config
