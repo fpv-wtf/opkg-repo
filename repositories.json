@@ -61,5 +61,11 @@
     "names": [
       "live-audio"
     ]
+  },
+  {
+    "repo": "d3vl/wtfos-auto-naco",
+    "names": [
+      "fcc-unlock"
+    ]
   }
 ]
