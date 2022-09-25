@@ -21,13 +21,13 @@ Description: Service to control fan on goggles even when dji process is not runn
 
 
 Package: fcc-unlock
-Version: 1.0.5
-Depends: wtfos-modloader
+Version: 1.0.6
+Depends: dinit
 Architecture: pigeon-all
 Maintainer: D3VL LTD <jack@d3vl.com>
-MD5Sum: df6bbb483e01b88b68b8032680430a2e
-Size: 1434
-Filename: fcc-unlock_1.0.5_pigeon-all.ipk
+MD5Sum: 4b0162650790191f2fa55935b0021dee
+Size: 1421
+Filename: fcc-unlock_1.0.6_pigeon-all.ipk
 Description: Unlocks FCC 1200mw on the Goggles, Vistas and Air Units without the need for naco.txt/naco_pwr.txt
 HomePage: https://github.com/d3vl/wtfos-auto-naco
 
