@@ -20,6 +20,18 @@ Filename: fan-control_0.1.1_pigeon-glasses.ipk
 Description: Service to control fan on goggles even when dji process is not running
 
 
+Package: fcc-unlock
+Version: 1.0.5
+Depends: wtfos-modloader
+Architecture: pigeon-all
+Maintainer: D3VL LTD <jack@d3vl.com>
+MD5Sum: df6bbb483e01b88b68b8032680430a2e
+Size: 1434
+Filename: fcc-unlock_1.0.5_pigeon-all.ipk
+Description: Unlocks FCC 1200mw on the Goggles, Vistas and Air Units without the need for naco.txt/naco_pwr.txt
+HomePage: https://github.com/d3vl/wtfos-auto-naco
+
+
 Package: goggle-led-draw
 Version: 0.2.0
 Architecture: pigeon-glasses
