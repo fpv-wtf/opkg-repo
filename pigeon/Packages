@@ -121,13 +121,13 @@ Description: Setup opkg.conf based on your hardware.
 
 
 Package: wtfos-package-config
-Version: 0.1.0
+Version: 0.1.1
 Depends: jq
 Architecture: pigeon-all
 Maintainer: Joonas Trussmann <joonas@batman.ee>
-MD5Sum: 42fd7461c15a7e0f6c0878dfbc83c30a
-Size: 2543
-Filename: wtfos-package-config_0.1.0_pigeon-all.ipk
+MD5Sum: 7c3aa1091367ff61c992ec645d9417ed
+Size: 2565
+Filename: wtfos-package-config_0.1.1_pigeon-all.ipk
 Description: package-config CLI tool for interacting with package configurations
 
 
