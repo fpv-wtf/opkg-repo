@@ -56,25 +56,27 @@ HomePage: https://github.com/shambler123/wtf_dji_fpv_live_audio/
 
 
 Package: msp-osd
-Version: 0.6.6
+Version: 0.6.8
 Depends: dinit, wtfos-opkg-config, wtfos-package-config
 Architecture: pigeon-airside
 Maintainer: bri3d
-MD5Sum: d6ace26a1910dd3183fc2ad4cb5fd063
-Size: 9263
-Filename: msp-osd_0.6.6_pigeon-airside.ipk
+MD5Sum: 24e763710700e594ce402978e8b0ee1f
+Size: 9382
+Filename: msp-osd_0.6.8_pigeon-airside.ipk
 Description: MSP OSD service for the DJI HD FPV airunit.
+HomePage: https://github.com/fpv-wtf/msp-osd
 
 
 Package: msp-osd
-Version: 0.6.7
+Version: 0.6.8
 Depends: wtfos-modloader, wtfos-package-config
 Architecture: pigeon-glasses
 Maintainer: bri3d
-MD5Sum: a1b48ccca13d4eac1cd732fc09967047
-Size: 186386
-Filename: msp-osd_0.6.7_pigeon-glasses.ipk
+MD5Sum: ee4d8ab85f58e2cae9e662b787f818fe
+Size: 187947
+Filename: msp-osd_0.6.8_pigeon-glasses.ipk
 Description: MSP OSD service for the DJI HD FPV goggles.
+HomePage: https://github.com/fpv-wtf/msp-osd
 
 
 Package: tweak-enable-debug-menu
