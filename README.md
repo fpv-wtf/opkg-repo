@@ -57,6 +57,14 @@ Once the deployment runs it will check the latest release of your project, fetch
 If everything checks out a new index is build.
 Otherwise the build fails and the offending package will be visible in the build logs.
 
+### Package naming
+We ask that you give your packages a short, simple and descriptive name. Some examples include:
+ - `live-audio` - for live audio on the v1 goggles and an au
+ - `auto-record` - for automatically starting recording when air side is connected
+ - `avin-mods` - for a package containing mulitple avin related tweaks
+ 
+ Please do not tag packages with the `wtfos-` prefix without consulting with the team first, as it's reserved for core packages. Please also don't tag packages with the author/group name, use the Maintainer .ipk control field instead. This will be shown soon in the configurator (as of time of writing).
+
 ### Licensing
 Please make sure that the package you are submitting has an open source license attached to it (preferably GPL V3). Pull Requests for packages without a license (or a too restrictive licence) will be rejected.
 
