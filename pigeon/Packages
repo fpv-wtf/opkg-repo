@@ -1,3 +1,15 @@
+Package: auto-record
+Version: 1.0.0
+Depends: wtfos-modloader
+Architecture: pigeon-glasses
+Maintainer: LouD <loud@the-legacy.net>
+MD5Sum: e66b44c499b7d13fb293a0c362f47ff6
+Size: 3166
+Filename: auto-record_1.0.0_pigeon-glasses.ipk
+Description: Enable auto recording on UAV connection
+HomePage: https://github.com/LouDnl/WTFOS-Automatic-recording-package
+
+
 Package: avin-mods
 Version: 1.0.1
 Depends: dinit, wtfos-package-config
