@@ -35,11 +35,9 @@ packages = fetcher.fetch()
 html = HTML(html_template)
 
 # Write package index
-latestPackages = sorted(packages['latest'], key=lambda d: d['Package'])
-html.write(html_output, latestPackages)
+stablePackages = sorted(packages['stable'], key=lambda d: d['Package'])
+html.write(html_output, stablePackages)
 
-# write package index for pre-releases if available
-if len(packages['prerelease']) > 0:
-    prereleasePackages = sorted(packages['prerelease'],
-                                key=lambda d: d['Package'])
-    html.write(html_output_prerelease, prereleasePackages)
+# write package index for pre-releases
+prereleasePackages = sorted(packages['prerelease'], key=lambda d: d['Package'])
+html.write(html_output_prerelease, prereleasePackages)
