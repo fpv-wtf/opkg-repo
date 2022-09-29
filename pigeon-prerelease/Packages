@@ -57,12 +57,12 @@ HomePage: https://github.com/d3vl/wtfos-auto-naco
 
 
 Package: goggle-led-draw
-Version: 0.2.0
+Version: 0.4.0
 Architecture: pigeon-glasses
 Maintainer: Chris L. <stylesuxx@gmail.com>
-MD5Sum: 7edb8bae9610096a48dde4c5504af20a
-Size: 1904
-Filename: goggle-led-draw_0.2.0_pigeon-glasses.ipk
+MD5Sum: 64c7d835fd72f4612eeb74ca970222ec
+Size: 1909
+Filename: goggle-led-draw_0.4.0_pigeon-glasses.ipk
 Description: Draw on the DJI goggle LED display
 HomePage: https://github.com/stylesuxx/dji-hd-fpv-led-matrix
 
