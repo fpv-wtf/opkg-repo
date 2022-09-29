@@ -16,6 +16,17 @@ Update `opkg` and list packages from repository:
 opkg update
 ```
 
+### Pre-releases
+If you want to use pre-release packages then add the pre-release repository **instead** of the stable one from above to `opkg.conf`:
+
+```
+src/gz fpv.wtf http://repo.fpv.wtf/pigeon-prerelease
+```
+
+The prerelease repository contains pre-release packages when available, otherwise the stable packe is available.
+
+> Only use either the stable repository or the pre-release repository.
+
 ## Contribute
 Your contributions are very welcome, there are a lot of ways to contribute to this project:
 
@@ -62,7 +73,7 @@ We ask that you give your packages a short, simple and descriptive name. Some ex
  - `live-audio` - for live audio on the v1 goggles and an au
  - `auto-record` - for automatically starting recording when air side is connected
  - `avin-mods` - for a package containing mulitple avin related tweaks
- 
+
  Please do not tag packages with the `wtfos-` prefix without consulting with the team first, as it's reserved for core packages. Please also don't tag packages with the author/group name, use the Maintainer .ipk control field instead. This will be shown soon in the configurator (as of time of writing).
 
 ### Licensing
@@ -81,4 +92,3 @@ To limit the systems on which your package can be installed, add one of the arch
 
 ### IPK template
 You can check out the [IPK example](https://github.com/stylesuxx/ipk-example) repository. It provides a template in regards to folder structure, a `Makefile` and a workflow to automatically build IPK packages via Github Actions.
-
