@@ -1,0 +1,191 @@
+Package: auto-record
+Version: 1.0.0
+Depends: wtfos-modloader
+Architecture: pigeon-glasses
+Maintainer: LouD <loud@the-legacy.net>
+MD5Sum: e66b44c499b7d13fb293a0c362f47ff6
+Size: 3166
+Filename: auto-record_1.0.0_pigeon-glasses.ipk
+Description: Enable auto recording on UAV connection
+HomePage: https://github.com/LouDnl/WTFOS-Automatic-recording-package
+
+
+Package: avin-mods
+Version: 1.0.1
+Depends: dinit, wtfos-package-config
+Architecture: pigeon-glasses
+Maintainer: D3VL LTD <jack@d3vl.com>
+MD5Sum: 7f795ed04ed10fde1ff20f5984c677b4
+Size: 2576
+Filename: avin-mods_1.0.1_pigeon-glasses.ipk
+Description: Exposes configuration options for AV Input; Set PAL/NTSC and more!
+HomePage: https://github.com/d3vl/wtfos-avin-mods
+
+
+Package: dinit
+Version: 0.14.0
+Depends: wtfos-system
+Architecture: armv7-3.2
+Maintainer: Joonas Trussmann <joonas@batman.ee>
+MD5Sum: f5f259f007806328d16ff76bd475e050
+Size: 2651788
+Filename: dinit_0.14.0_armv7-3.2.ipk
+Description: Service monitoring and init system (0.14.0-wtfos)
+
+
+Package: fan-control
+Version: 0.1.1
+Depends: dinit wtfos-opkg-config
+Architecture: pigeon-glasses
+Maintainer: bri3d
+MD5Sum: e03f12b278234b9210edf8fde181fda5
+Size: 4245
+Filename: fan-control_0.1.1_pigeon-glasses.ipk
+Description: Service to control fan on goggles even when dji process is not running
+
+
+Package: fcc-unlock
+Version: 1.0.6
+Depends: dinit
+Architecture: pigeon-all
+Maintainer: D3VL LTD <jack@d3vl.com>
+MD5Sum: 4b0162650790191f2fa55935b0021dee
+Size: 1421
+Filename: fcc-unlock_1.0.6_pigeon-all.ipk
+Description: Unlocks FCC 1200mw on the Goggles, Vistas and Air Units without the need for naco.txt/naco_pwr.txt
+HomePage: https://github.com/d3vl/wtfos-auto-naco
+
+
+Package: goggle-led-draw
+Version: 0.2.0
+Architecture: pigeon-glasses
+Maintainer: Chris L. <stylesuxx@gmail.com>
+MD5Sum: 7edb8bae9610096a48dde4c5504af20a
+Size: 1904
+Filename: goggle-led-draw_0.2.0_pigeon-glasses.ipk
+Description: Draw on the DJI goggle LED display
+HomePage: https://github.com/stylesuxx/dji-hd-fpv-led-matrix
+
+
+Package: live-audio
+Version: 1.0.0
+Depends: wtfos-modloader
+Architecture: pigeon-glasses-v1
+Maintainer: shambler
+MD5Sum: 99e1985b6b45ce5eab7313b4a861f289
+Size: 3393
+Filename: live-audio_1.0.0_pigeon-glasses-v1.ipk
+Description: This package enables live audio on DJI FPV v1, with the air unit vista has no mic!
+HomePage: https://github.com/shambler123/wtf_dji_fpv_live_audio/
+
+
+Package: msp-osd
+Version: 0.6.8
+Depends: dinit, wtfos-opkg-config, wtfos-package-config
+Architecture: pigeon-airside
+Maintainer: bri3d
+MD5Sum: 8d9620d463a3d87b020f19cb26d997c2
+Size: 9385
+Filename: msp-osd_0.6.8_pigeon-airside.ipk
+Description: MSP OSD service for the DJI HD FPV airunit.
+HomePage: https://github.com/fpv-wtf/msp-osd
+
+
+Package: msp-osd
+Version: 0.6.9
+Depends: wtfos-modloader, wtfos-package-config
+Architecture: pigeon-glasses
+Maintainer: bri3d
+MD5Sum: 8cc117330f679887bd67141b2cdbb834
+Size: 214536
+Filename: msp-osd_0.6.9_pigeon-glasses.ipk
+Description: MSP OSD service for the DJI HD FPV goggles.
+HomePage: https://github.com/fpv-wtf/msp-osd
+
+
+Package: tweak-enable-debug-menu
+Version: 0.1.5
+Depends: wtfos-modloader
+Architecture: pigeon-glasses
+Maintainer: Joonas Trussmann <joonas@batman.ee>
+MD5Sum: f4bf22ca85641c8002eab6a1c4e662a3
+Size: 2303
+Filename: tweak-enable-debug-menu_0.1.5_pigeon-glasses.ipk
+Description: Enable DJI debug menu on Goggles
+
+
+Package: tweak-prevent-force-upgrade
+Version: 0.9.3
+Depends: dinit
+Architecture: pigeon-glasses-v2
+Maintainer: Joonas Trussmann joonas@batman.ee
+MD5Sum: ef8d39f4a73898aaabbeb877af91061a
+Size: 2348
+Filename: tweak-prevent-force-upgrade_0.9.3_pigeon-glasses-v2.ipk
+Description: Prevents accidental force upgrades on Goggles v2 by connecting to Fly App in DJI FPV Drone mode.
+
+
+Package: wtfos-modloader
+Version: 0.1.4
+Depends: wtfos-system
+Architecture: armv7-3.2
+Maintainer: Joonas Trussmann <joonas@batman.ee>
+MD5Sum: 2688d184d0be7274b79378b0bf37bca4
+Size: 3776
+Filename: wtfos-modloader_0.1.4_armv7-3.2.ipk
+Description: Configurable LD_PRELOAD injector for DJI services
+
+
+Package: wtfos-opkg-config
+Version: 0.4.0
+Architecture: armv7-3.2
+Maintainer: Chris L. <stylesuxx@gmail.com>
+MD5Sum: bfdd73b851fad3d3f9332b2bfb245707
+Size: 1229
+Filename: wtfos-opkg-config_armv7-3.2.ipk
+Description: Setup opkg.conf based on your hardware.
+
+
+Package: wtfos-package-config
+Version: 0.1.1
+Depends: jq
+Architecture: pigeon-all
+Maintainer: Joonas Trussmann <joonas@batman.ee>
+MD5Sum: 7c3aa1091367ff61c992ec645d9417ed
+Size: 2565
+Filename: wtfos-package-config_0.1.1_pigeon-all.ipk
+Description: package-config CLI tool for interacting with package configurations
+
+
+Package: wtfos-system
+Version: 0.1.7
+Architecture: armv7-3.2
+Maintainer: Joonas Trussmann joonas@batman.ee
+MD5Sum: 3b3caf580b8c4387277cdf084f33bf59
+Size: 679609
+Filename: wtfos-system_0.1.7_armv7-3.2.ipk
+Description: wtfos startup patches
+
+
+Package: wtfos
+Version: 0.3.4
+Depends: wtfos-system, wtfos-opkg-config, dinit
+Architecture: pigeon-airside
+Maintainer: Joonas Trussmann joonas@batman.ee
+MD5Sum: 57959453f16fa51c237361eda8a70533
+Size: 588
+Filename: wtfos_0.3.4_pigeon-airside.ipk
+Description: wtfos meta package
+
+
+Package: wtfos
+Version: 0.3.4
+Depends: wtfos-system, wtfos-opkg-config, dinit
+Architecture: pigeon-glasses
+Maintainer: Joonas Trussmann joonas@batman.ee
+MD5Sum: ac61a7b8efacbb3fa6e3acde62925d64
+Size: 587
+Filename: wtfos_0.3.4_pigeon-glasses.ipk
+Description: wtfos meta package
+
+
