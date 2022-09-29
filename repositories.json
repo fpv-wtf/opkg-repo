@@ -73,5 +73,11 @@
     "names": [
       "avin-mods"
     ]
+  },
+  {
+    "repo": "loudnl/wtfos-auto-record",
+    "names": [
+      "auto-record"
+    ]
   }
 ]
