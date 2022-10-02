@@ -79,5 +79,17 @@
     "names": [
       "auto-record"
     ]
+  },
+  {
+    "repo": "d3vl/wtfos-image-changer",
+    "names": [
+      "image-changer"
+    ]
+  },
+  {
+    "repo": "d3vl/wtfos-image-configurator",
+    "names": [
+      "image-configurator"
+    ]
   }
 ]
