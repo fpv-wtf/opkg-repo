@@ -1,5 +1,5 @@
 OPKG_UTILS_VERSION = opkg-utils-0.5.0
-OPKG_UTILS_URL = https://git.yoctoproject.org/opkg-utils/snapshot/$(OPKG_UTILS_VERSION).zip
+OPKG_UTILS_URL = https://git.yoctoproject.org/opkg-utils/snapshot/$(OPKG_UTILS_VERSION).tar.gz
 OPKG_UTILS_PATH = build/$(OPKG_UTILS_VERSION)
 
 all: build pigeon
@@ -20,7 +20,7 @@ build:
 	mkdir -p build/packages/pigeon
 	mkdir -p build/packages/pigeon-prerelease
 	wget -P build/ $(OPKG_UTILS_URL)
-	unzip build/*.zip -d ./build
+	tar xzf build/*.tar.gz -C ./build
 
 clean:
 	rm -rf ./build
