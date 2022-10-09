@@ -132,10 +132,11 @@ Version: 0.1.5
 Depends: wtfos-modloader
 Architecture: pigeon-glasses
 Maintainer: Joonas Trussmann <joonas@batman.ee>
-MD5Sum: f4bf22ca85641c8002eab6a1c4e662a3
-Size: 2303
+MD5Sum: d323d2ae4d993428f9ade48171e9f82e
+Size: 2326
 Filename: tweak-enable-debug-menu_0.1.5_pigeon-glasses.ipk
 Description: Enable DJI debug menu on Goggles
+HomePage: https://github.com/fpv-wtf/wtfos-modloader
 
 
 Package: tweak-prevent-force-upgrade
@@ -152,12 +153,14 @@ Description: Prevents accidental force upgrades on Goggles v2 by connecting to F
 Package: wtfos-modloader
 Version: 0.1.4
 Depends: wtfos-system
+Section: system
 Architecture: armv7-3.2
 Maintainer: Joonas Trussmann <joonas@batman.ee>
-MD5Sum: 2688d184d0be7274b79378b0bf37bca4
-Size: 3776
+MD5Sum: d383ff300281e4195a0f7593ec9d41b8
+Size: 3825
 Filename: wtfos-modloader_0.1.4_armv7-3.2.ipk
 Description: Configurable LD_PRELOAD injector for DJI services
+HomePage: https://github.com/fpv-wtf/wtfos-modloader
 
 
 Package: wtfos-opkg-config
@@ -173,43 +176,51 @@ Description: Setup opkg.conf based on your hardware.
 Package: wtfos-package-config
 Version: 0.1.1
 Depends: jq
+Section: system
 Architecture: pigeon-all
 Maintainer: Joonas Trussmann <joonas@batman.ee>
-MD5Sum: 7c3aa1091367ff61c992ec645d9417ed
-Size: 2565
+MD5Sum: 7ba0daae8b8c1729b81ff904b3c0d0c7
+Size: 2620
 Filename: wtfos-package-config_0.1.1_pigeon-all.ipk
 Description: package-config CLI tool for interacting with package configurations
+HomePage: https://github.com/fpv-wtf/wtfos-package-config
 
 
 Package: wtfos-system
 Version: 0.1.7
+Section: system
 Architecture: armv7-3.2
 Maintainer: Joonas Trussmann joonas@batman.ee
-MD5Sum: 3b3caf580b8c4387277cdf084f33bf59
-Size: 679609
+MD5Sum: a224afa2813c6e8a53234c5b639930c9
+Size: 679751
 Filename: wtfos-system_0.1.7_armv7-3.2.ipk
 Description: wtfos startup patches
+HomePage: https://github.com/fpv-wtf/wtfos
 
 
 Package: wtfos
 Version: 0.3.4
 Depends: wtfos-system, wtfos-opkg-config, dinit
+Section: system
 Architecture: pigeon-airside
 Maintainer: Joonas Trussmann joonas@batman.ee
-MD5Sum: 57959453f16fa51c237361eda8a70533
-Size: 588
+MD5Sum: aaa92c3ab36c87765c0a96b7b42065ac
+Size: 627
 Filename: wtfos_0.3.4_pigeon-airside.ipk
 Description: wtfos meta package
+HomePage: https://github.com/fpv-wtf/wtfos
 
 
 Package: wtfos
 Version: 0.3.4
 Depends: wtfos-system, wtfos-opkg-config, dinit
+Section: system
 Architecture: pigeon-glasses
 Maintainer: Joonas Trussmann joonas@batman.ee
-MD5Sum: ac61a7b8efacbb3fa6e3acde62925d64
-Size: 587
+MD5Sum: 768550b2a6a9cf61d84f1d710d6573d7
+Size: 627
 Filename: wtfos_0.3.4_pigeon-glasses.ipk
 Description: wtfos meta package
+HomePage: https://github.com/fpv-wtf/wtfos
 
 
