@@ -11,13 +11,13 @@ HomePage: https://github.com/LouDnl/WTFOS-Automatic-recording-package
 
 
 Package: avin-mods
-Version: 1.0.1
+Version: 1.0.2
 Depends: dinit, wtfos-package-config
 Architecture: pigeon-glasses
 Maintainer: D3VL LTD <jack@d3vl.com>
-MD5Sum: 7f795ed04ed10fde1ff20f5984c677b4
-Size: 2576
-Filename: avin-mods_1.0.1_pigeon-glasses.ipk
+MD5Sum: 9ee9531da4f74288f89979689a6219ad
+Size: 2945
+Filename: avin-mods_1.0.2_pigeon-glasses.ipk
 Description: Exposes configuration options for AV Input; Set PAL/NTSC and more!
 HomePage: https://github.com/d3vl/wtfos-avin-mods
 
