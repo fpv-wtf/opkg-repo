@@ -15,8 +15,8 @@ Version: 1.0.2
 Depends: dinit, wtfos-package-config
 Architecture: pigeon-glasses
 Maintainer: D3VL LTD <jack@d3vl.com>
-MD5Sum: 9ee9531da4f74288f89979689a6219ad
-Size: 2945
+MD5Sum: 1323b499b62efb3bb12a62ad4d0350fe
+Size: 2947
 Filename: avin-mods_1.0.2_pigeon-glasses.ipk
 Description: Exposes configuration options for AV Input; Set PAL/NTSC and more!
 HomePage: https://github.com/d3vl/wtfos-avin-mods
@@ -108,21 +108,21 @@ Version: 0.6.11
 Depends: dinit, wtfos-opkg-config, wtfos-package-config
 Architecture: pigeon-airside
 Maintainer: bri3d
-MD5Sum: 36fbf803597c4a4156ed804770b3f85f
-Size: 9436
+MD5Sum: 8983cf99f6ef28a092a9df7468b94b18
+Size: 9617
 Filename: msp-osd_0.6.11_pigeon-airside.ipk
 Description: MSP OSD service for the DJI HD FPV airunit.
 HomePage: https://github.com/fpv-wtf/msp-osd
 
 
 Package: msp-osd
-Version: 0.6.11
+Version: 0.6.12
 Depends: wtfos-modloader, wtfos-package-config
 Architecture: pigeon-glasses
 Maintainer: bri3d
-MD5Sum: 31d49c16d9d188dcc2e637812b6b22d6
-Size: 218072
-Filename: msp-osd_0.6.11_pigeon-glasses.ipk
+MD5Sum: 2729ac30db88a12685556b8021e47b71
+Size: 218047
+Filename: msp-osd_0.6.12_pigeon-glasses.ipk
 Description: MSP OSD service for the DJI HD FPV goggles.
 HomePage: https://github.com/fpv-wtf/msp-osd
 
