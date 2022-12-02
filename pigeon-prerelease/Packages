@@ -68,25 +68,25 @@ HomePage: https://github.com/stylesuxx/dji-hd-fpv-led-matrix
 
 
 Package: image-changer
-Version: 1.0.2
+Version: 1.0.3
 Depends: dinit
 Architecture: pigeon-glasses
 Maintainer: D3VL LTD <jack@d3vl.com>
-MD5Sum: 9b01186543a5f8a45b4da94aa4e0c4e5
-Size: 4185441
-Filename: image-changer_1.0.2_pigeon-glasses.ipk
+MD5Sum: 560b0e6e9c1c05e702121b6609485000
+Size: 4184663
+Filename: image-changer_1.0.3_pigeon-glasses.ipk
 Description: Changes the default DJI Splash Screen and Screensavers to WTFOS ones
 HomePage: https://github.com/d3vl/wtfos-image-changer
 
 
 Package: image-configurator
-Version: 1.0.2
+Version: 1.0.3
 Depends: dinit, image-changer, ffmpeg
 Architecture: pigeon-glasses
 Maintainer: D3VL LTD <jack@d3vl.com>
-MD5Sum: ee0801ab8246ec369efc6261cf496aa3
-Size: 1601
-Filename: image-configurator_1.0.2_pigeon-glasses.ipk
+MD5Sum: 6ddc5c36a28d760c55b1344a3a6e2a50
+Size: 1742
+Filename: image-configurator_1.0.3_pigeon-glasses.ipk
 Description: Change the splash screen and screensaver images with splashscreen.png, screensaver01.png and screensaver02.png in the root of the SD card.
 HomePage: https://github.com/d3vl/wtfos-image-configurator
 
