@@ -167,8 +167,8 @@ Package: wtfos-opkg-config
 Version: 0.4.0
 Architecture: armv7-3.2
 Maintainer: Chris L. <stylesuxx@gmail.com>
-MD5Sum: bfdd73b851fad3d3f9332b2bfb245707
-Size: 1229
+MD5Sum: eed58762f261041f883051c4075102c6
+Size: 1222
 Filename: wtfos-opkg-config_armv7-3.2.ipk
 Description: Setup opkg.conf based on your hardware.
 
