@@ -76,6 +76,9 @@ We ask that you give your packages a short, simple and descriptive name. Some ex
 
  Please do not tag packages with the `wtfos-` prefix without consulting with the team first, as it's reserved for core packages. Please also don't tag packages with the author/group name, use the Maintainer .ipk control field instead. This will be shown soon in the configurator (as of time of writing).
 
+### Entware mirroring
+For maintainers, please note that `make entware-mirror` will fetch entware packages filtered by entware-packages.txt (the preceeding / and proceeding _ are important for exact matching) into the `entware-armv7sf-k3.2` folder for mirroring. We do this (and commit the .ipks fetched) because bin.entware.com has stability issues.
+
 ### Licensing
 Please make sure that the package you are submitting has an open source license attached to it (preferably GPL V3). Pull Requests for packages without a license (or a too restrictive licence) will be rejected.
 
