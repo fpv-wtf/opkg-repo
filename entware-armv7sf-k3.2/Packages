@@ -1,0 +1,466 @@
+Package: alsa-lib
+Version: 1.2.6.1-1
+Depends: libc, libssp, librt, libpthread, libpthread, librt
+Section: libs
+Architecture: armv7-3.2
+Maintainer: Ted Hess <thess@kitschensync.net>, Peter Wagner <tripolar@gmx.at>
+MD5Sum: 41eb22554f6b88eff267ba934ef869ad
+Size: 388333
+Filename: alsa-lib_1.2.6.1-1_armv7-3.2.ipk
+Source: feeds/packages/libs/alsa-lib
+Description: This is the library package for alsa, needed by some userspace programs.
+License: LGPL-2.1-or-later
+
+
+Package: busybox
+Version: 1.35.0-3
+Depends: libc, libssp, librt, libpthread, jsonfilter
+Conflicts: busybox-selinux
+Section: base
+Architecture: armv7-3.2
+Maintainer: Felix Fietkau <nbd@nbd.name>
+MD5Sum: d401ab0b7c2ae264ccd70b94edd39791
+Size: 319697
+Filename: busybox_1.35.0-3_armv7-3.2.ipk
+Source: package/utils/busybox
+Description: The Swiss Army Knife of embedded Linux.
+License: GPL-2.0
+
+
+Package: entware-opt
+Version: 227000-3
+Depends: libc, libssp, librt, libpthread, libgcc, libstdcpp, libpthread, librt, entware-release, zoneinfo-asia, zoneinfo-europe, findutils, terminfo, locales, opkg, entware-upgrade
+Conflicts: opt-ndmsv2
+Section: base
+Architecture: all
+Maintainer: Entware team, https://entware.net
+MD5Sum: db96eb532d4a407806cf579f466f94ec
+Size: 3266
+Filename: entware-opt_227000-3_all.ipk
+Source: feeds/rtndev/entware-opt
+Description: entware-opt is a metapackage to install Entware basic libraries and scripts.
+
+
+Package: entware-release
+Version: 1.0-2
+Depends: libc, libssp, librt, libpthread
+Section: base
+Architecture: all
+Maintainer: Entware team, https://entware.net
+MD5Sum: d8205dff38b12162b80ecea037b37f53
+Size: 858
+Filename: entware-release_1.0-2_all.ipk
+Source: feeds/rtndev/entware-release
+Description: entware_release is a file in /opt/etc with entware info.
+
+
+Package: entware-upgrade
+Version: 1.0-1
+Depends: libc, libssp, librt, libpthread
+Section: base
+Architecture: all
+Maintainer: Entware team, https://entware.net
+MD5Sum: 3ef034a85e7567f5e70bceac560f2087
+Size: 755
+Filename: entware-upgrade_1.0-1_all.ipk
+Source: feeds/rtndev/entware-upgrade
+Description: Helper package to upgrade Entware for future usage. Currently used to upgrade
+
+
+Package: ffmpeg
+Version: 5.1.2-1
+Depends: libc, libssp, librt, libpthread, libpthread, libffmpeg-full
+Section: multimedia
+Architecture: armv7-3.2
+Maintainer: Ted Hess <thess@kitschensync.net>, Ian Leonard <antonlacon@gmail.com>
+MD5Sum: 24367edf6cb11b0af449746c49053b4d
+Size: 102292
+Filename: ffmpeg_5.1.2-1_armv7-3.2.ipk
+Source: feeds/packages/multimedia/ffmpeg
+Description: FFmpeg is a a software package that can record, convert and stream digital
+License: LGPL-2.1-or-later GPL-2.0-or-later LGPL-3.0-or-later
+
+
+Package: findutils
+Version: 4.9.0-1
+Depends: libc, libssp, librt, libpthread
+Section: utils
+Architecture: armv7-3.2
+MD5Sum: a184be53eda79733dd292f8dd85774f4
+Size: 152388
+Filename: findutils_4.9.0-1_armv7-3.2.ipk
+Source: feeds/packages/utils/findutils
+Description: Replace busybox versions of findutils with full GNU versions.
+License: GPL-3.0-or-later
+
+
+Package: grep
+Version: 3.8-2
+Depends: libc, libssp, librt, libpthread, libpcre2
+Section: utils
+Architecture: armv7-3.2
+Maintainer: Julen Landa Alustiza <julen@zokormazo.info>
+MD5Sum: 9d69f822500e103925ce2b83dd5b208b
+Size: 105668
+Filename: grep_3.8-2_armv7-3.2.ipk
+Source: feeds/packages/utils/grep
+Description: The grep command searches one or more input files for lines
+License: GPL-3.0-or-later
+
+
+Package: jq
+Version: 1.6-2
+Depends: libc, libssp, librt, libpthread
+Section: utils
+Architecture: armv7-3.2
+Maintainer: Marko Ratkaj <markoratkaj@gmail.com>
+MD5Sum: 1b5421820ff60a323975f0a1480ae2da
+Size: 120100
+Filename: jq_1.6-2_armv7-3.2.ipk
+Source: feeds/packages/utils/jq
+Description: Lightweight and flexible command-line JSON processor.
+License: BSD
+
+
+Package: jsonfilter
+Version: 2018-02-04-c7e938d6-1
+Depends: libc, libssp, librt, libpthread, libubox, libjson-c
+Section: base
+Architecture: armv7-3.2
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+MD5Sum: 348dba9c25baf479d30119b98a17075a
+Size: 10354
+Filename: jsonfilter_2018-02-04-c7e938d6-1_armv7-3.2.ipk
+Source: package/utils/jsonfilter
+Description: OpenWrt JSON filter utility
+License: ISC
+
+
+Package: libatomic
+Version: 8.4.0-11
+Depends: libgcc
+Section: libs
+Architecture: armv7-3.2
+Maintainer: Felix Fietkau <nbd@nbd.name>
+MD5Sum: 58e0768cd24aeac4939af353b0dc9691
+Size: 7509
+Filename: libatomic_8.4.0-11_armv7-3.2.ipk
+Source: package/libs/toolchain
+Description: Atomic support library
+License: GPL-3.0-with-GCC-exception
+
+
+Package: libbz2
+Version: 1.0.8-1a
+Depends: libc, libssp, librt, libpthread
+Section: libs
+Architecture: armv7-3.2
+Maintainer: Steven Barth <cyrus@openwrt.org>
+MD5Sum: c88c5347605a471d39cbc6fb8806b6c4
+Size: 30825
+Filename: libbz2_1.0.8-1a_armv7-3.2.ipk
+Source: package/utils/bzip2
+Description: bzip2 is a freely available, patent free, high-quality
+License: bzip2-1.0.8
+
+
+Package: libc
+Version: 2.27-11
+Depends: libgcc
+Section: libs
+Architecture: armv7-3.2
+Maintainer: Felix Fietkau <nbd@nbd.name>
+MD5Sum: 19cd5e837a4e1a3a9205dfedd34153f4
+Size: 1239005
+Filename: libc_2.27-11_armv7-3.2.ipk
+Source: package/libs/toolchain
+Description: C library
+License: GPL-3.0-with-GCC-exception
+
+
+Package: libffmpeg-full
+Version: 5.1.2-1
+Depends: libc, libssp, librt, libpthread, libpthread, libpthread, zlib, libbz2, alsa-lib, libgnutls, libopus, shine, libx264
+Provides: libffmpeg, libffmpeg-mini, libffmpeg-audio-dec
+Section: libs
+Architecture: armv7-3.2
+Maintainer: Ted Hess <thess@kitschensync.net>, Ian Leonard <antonlacon@gmail.com>
+MD5Sum: ef9457c9b24d97f2927d74de98ba73ee
+Size: 6470308
+Filename: libffmpeg-full_5.1.2-1_armv7-3.2.ipk
+Source: feeds/packages/multimedia/ffmpeg
+Description: FFmpeg is a a software package that can record, convert and stream digital
+License: LGPL-2.1-or-later GPL-2.0-or-later LGPL-3.0-or-later
+
+
+Package: libgcc
+Version: 8.4.0-11
+Section: libs
+Architecture: armv7-3.2
+Maintainer: Felix Fietkau <nbd@nbd.name>
+MD5Sum: 56541c9670c06e8cbfedd4a1d18b6c67
+Size: 22218
+Filename: libgcc_8.4.0-11_armv7-3.2.ipk
+Source: package/libs/toolchain
+Description: GCC support library
+License: GPL-3.0-with-GCC-exception
+
+
+Package: libgmp
+Version: 6.2.1-1a
+Depends: libc, libssp, librt, libpthread
+Section: libs
+Architecture: armv7-3.2
+MD5Sum: 2c66683ef775c20f9836af84e5cb210b
+Size: 207519
+Filename: libgmp_6.2.1-1a_armv7-3.2.ipk
+Source: package/libs/gmp
+Description: GMP is a free library for arbitrary precision arithmetic, operating on
+License: GPL-2.0-or-later
+
+
+Package: libgnutls
+Version: 3.7.8-1
+Depends: libc, libssp, librt, libpthread, libnettle, libgmp, libatomic
+Section: libs
+Architecture: armv7-3.2
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+MD5Sum: b6205957f61feed9cc7dbee5a1ed901d
+Size: 986179
+Filename: libgnutls_3.7.8-1_armv7-3.2.ipk
+Source: feeds/packages/libs/gnutls
+Description: GnuTLS is a secure communications library implementing the SSL, TLS
+License: LGPL-2.1-or-later
+
+
+Package: libjson-c
+Version: 0.16-2
+Depends: libc, libssp, librt, libpthread
+Section: libs
+Architecture: armv7-3.2
+Maintainer: Felix Fietkau <nbd@nbd.name>
+MD5Sum: 00ad1f62e74d889b379a76170253db1e
+Size: 24536
+Filename: libjson-c_0.16-2_armv7-3.2.ipk
+Source: package/libs/libjson-c
+Description: This package contains a library for javascript object notation backends.
+License: MIT
+
+
+Package: libnettle
+Version: 3.8.1-1
+Depends: libc, libssp, librt, libpthread, libgmp
+Section: libs
+Architecture: armv7-3.2
+MD5Sum: 7c6670a608d0637bd539b6a828acec6e
+Size: 351617
+Filename: libnettle_3.8.1-1_armv7-3.2.ipk
+Source: package/libs/nettle
+Description: GNU crypto library
+License: GPL-2.0-or-later
+
+
+Package: libopus
+Version: 1.3.1-3
+Depends: libc, libssp, librt, libpthread
+Section: libs
+Architecture: armv7-3.2
+Maintainer: Ted Hess <thess@kitchensync.net>, Ian Leonard <antonlacon@gmail.com>
+MD5Sum: fca3310367bbf819444399e2dfa8d05d
+Size: 188651
+Filename: libopus_1.3.1-3_armv7-3.2.ipk
+Source: feeds/packages/libs/opus
+Description: Opus is a totally open, royalty-free, highly versatile audio codec. Opus is
+License: BSD-3-Clause
+
+
+Package: libpcre2
+Version: 10.37-2
+Depends: libc, libssp, librt, libpthread
+Section: libs
+Architecture: armv7-3.2
+Maintainer: Shane Peelar <lookatyouhacker@gmail.com>
+MD5Sum: c576781230d7dcfa484232a90bcdd911
+Size: 219223
+Filename: libpcre2_10.37-2_armv7-3.2.ipk
+Source: feeds/packages/libs/pcre2
+Description: A Perl Compatible Regular Expression library
+License: BSD-3-Clause
+
+
+Package: libpthread
+Version: 2.27-11
+Depends: libgcc
+Section: libs
+Architecture: armv7-3.2
+Maintainer: Felix Fietkau <nbd@nbd.name>
+MD5Sum: 0703537142e796ed7d402d87852b9a51
+Size: 40258
+Filename: libpthread_2.27-11_armv7-3.2.ipk
+Source: package/libs/toolchain
+Description: POSIX thread library
+License: GPL-3.0-with-GCC-exception
+
+
+Package: librt
+Version: 2.27-11
+Depends: libpthread
+Section: libs
+Architecture: armv7-3.2
+Maintainer: Felix Fietkau <nbd@nbd.name>
+MD5Sum: 11eb02492be50193bb9e721d8857545f
+Size: 12096
+Filename: librt_2.27-11_armv7-3.2.ipk
+Source: package/libs/toolchain
+Description: POSIX.1b RealTime extension library
+License: GPL-3.0-with-GCC-exception
+
+
+Package: libssp
+Version: 8.4.0-11
+Section: libs
+Architecture: armv7-3.2
+Maintainer: Felix Fietkau <nbd@nbd.name>
+MD5Sum: ddf3e38c2d116e9dd506156ab352471a
+Size: 3605
+Filename: libssp_8.4.0-11_armv7-3.2.ipk
+Source: package/libs/toolchain
+Description: GCC support library
+License: GPL-3.0-with-GCC-exception
+
+
+Package: libstdcpp
+Version: 8.4.0-11
+Section: libs
+Architecture: armv7-3.2
+Maintainer: Felix Fietkau <nbd@nbd.name>
+MD5Sum: 5b4e96eae1a9354b2ce3ff0d69bd8f74
+Size: 430151
+Filename: libstdcpp_8.4.0-11_armv7-3.2.ipk
+Source: package/libs/toolchain
+Description: GNU Standard C++ Library v3
+License: GPL-3.0-with-GCC-exception
+
+
+Package: libubox
+Version: 2022-09-27-ea560134-1
+Depends: libc, libssp, librt, libpthread
+Section: libs
+Architecture: armv7-3.2
+Maintainer: Felix Fietkau <nbd@nbd.name>
+MD5Sum: 017dbeadf48d159a8f45f81e6dba85a9
+Size: 19536
+Filename: libubox_2022-09-27-ea560134-1_armv7-3.2.ipk
+Source: package/libs/libubox
+Description: Basic utility library
+License: ISC
+
+
+Package: libx264
+Version: 2020-10-26-1
+Depends: libc, libssp, librt, libpthread, libpthread
+Section: libs
+Architecture: armv7-3.2
+Maintainer: Adrian Panella <ianchi74@outlook.com>
+MD5Sum: 2776d255ea9f66c1eb9e9e6b3205b49d
+Size: 842417
+Filename: libx264_2020-10-26-1_armv7-3.2.ipk
+Source: feeds/packages/libs/libx264
+Description: x264 is a free software library for encoding
+License: GPL-2.0-or-later
+
+
+Package: locales
+Version: 2.27-9
+Depends: libc, libssp, librt, libpthread, grep
+Section: libs
+Architecture: armv7-3.2
+Maintainer: Entware team, https://entware.net
+MD5Sum: 09d4789c0e9162b476bb0cb72b15bc58
+Size: 642476
+Filename: locales_2.27-9_armv7-3.2.ipk
+Source: feeds/rtndev/locales
+Description: locales support (independent of system lib)
+
+
+Package: opkg
+Version: 2022-02-24-d038e5b6-1
+Section: base
+Architecture: armv7-3.2
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+MD5Sum: 1dc68cac6c08821e3fdac5ab9659ba33
+Size: 375522
+Filename: opkg_2022-02-24-d038e5b6-1_armv7-3.2.ipk
+Source: package/system/opkg
+Description: Lightweight package management system
+License: GPL-2.0
+
+
+Package: shine
+Version: 3.1.1-1
+Depends: libc, libssp, librt, libpthread
+Section: sound
+Architecture: armv7-3.2
+Maintainer: Nicolas Thill <nico@openwrt.org>
+MD5Sum: 532a69f0868ae747c86fd00113765adb
+Size: 26593
+Filename: shine_3.1.1-1_armv7-3.2.ipk
+Source: feeds/packages/sound/shine
+Description: savonet/shine is a blazing fast mp3 encoding library implemented in fixed-point
+License: GPL-2.0
+
+
+Package: terminfo
+Version: 6.3-1a
+Depends: libc, libssp, librt, libpthread
+Section: libs
+Architecture: armv7-3.2
+MD5Sum: dbdb15195c4f1208815379c524d0a72f
+Size: 8186
+Filename: terminfo_6.3-1a_armv7-3.2.ipk
+Source: package/libs/ncurses
+Description: Terminal Info Database (ncurses)
+License: MIT
+
+
+Package: zlib
+Version: 1.2.13-1
+Depends: libc, libssp, librt, libpthread
+Section: libs
+Architecture: armv7-3.2
+MD5Sum: e5ddcf8bbbfcd99cba05e72cf2580236
+Size: 43342
+Filename: zlib_1.2.13-1_armv7-3.2.ipk
+Source: package/libs/zlib
+Description: zlib is a lossless data-compression library.
+License: Zlib
+
+
+Package: zoneinfo-asia
+Version: 2022f-1
+Depends: libc, libssp, librt, libpthread
+Section: utils
+Architecture: armv7-3.2
+Maintainer: Vladimir Ulrich <admin@evl.su>
+MD5Sum: c43a46e3a0e882a5c21e383ea676823f
+Size: 29912
+Filename: zoneinfo-asia_2022f-1_armv7-3.2.ipk
+Source: feeds/packages/utils/zoneinfo
+Description: Zone Information (Asia)
+License: Public Domain
+
+
+Package: zoneinfo-europe
+Version: 2022f-1
+Depends: libc, libssp, librt, libpthread
+Section: utils
+Architecture: armv7-3.2
+Maintainer: Vladimir Ulrich <admin@evl.su>
+MD5Sum: 76eecc1ade7ce715c8928f269609379a
+Size: 21414
+Filename: zoneinfo-europe_2022f-1_armv7-3.2.ipk
+Source: feeds/packages/utils/zoneinfo
+Description: Zone Information (Europe)
+License: Public Domain
+
+
