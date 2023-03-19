@@ -32,4 +32,3 @@
 /zlib_
 /zoneinfo-asia_
 /zoneinfo-europe_
-/xinetd_
