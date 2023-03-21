@@ -132,8 +132,8 @@ Version: 0.1.5
 Depends: wtfos-modloader
 Architecture: pigeon-glasses
 Maintainer: Joonas Trussmann <joonas@batman.ee>
-MD5Sum: d323d2ae4d993428f9ade48171e9f82e
-Size: 2326
+MD5Sum: bd6621cd22ff9f65485609cb9424b7e4
+Size: 2317
 Filename: tweak-enable-debug-menu_0.1.5_pigeon-glasses.ipk
 Description: Enable DJI debug menu on Goggles
 HomePage: https://github.com/fpv-wtf/wtfos-modloader
@@ -151,14 +151,14 @@ Description: Prevents accidental force upgrades on Goggles v2 by connecting to F
 
 
 Package: wtfos-modloader
-Version: 0.1.4
+Version: 0.2.0
 Depends: wtfos-system
 Section: system
 Architecture: armv7-3.2
 Maintainer: Joonas Trussmann <joonas@batman.ee>
-MD5Sum: d383ff300281e4195a0f7593ec9d41b8
-Size: 3825
-Filename: wtfos-modloader_0.1.4_armv7-3.2.ipk
+MD5Sum: dd24e8b36d067163d996588ee0bc49f8
+Size: 8657
+Filename: wtfos-modloader_0.2.0_armv7-3.2.ipk
 Description: Configurable LD_PRELOAD injector for DJI services
 HomePage: https://github.com/fpv-wtf/wtfos-modloader
 
