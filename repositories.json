@@ -91,5 +91,11 @@
     "names": [
       "image-configurator"
     ]
+  },
+  {
+    "repo": "fpv-wtf/dji-moonlight-shim",
+    "names": [
+      "dji-moonlight-shim"
+    ]
   }
 ]
