@@ -35,14 +35,14 @@ Description: Service monitoring and init system (0.14.0-wtfos)
 
 
 Package: dji-moonlight-shim
-Version: 1.0.1
+Version: 1.0.2
 Depends: fan-control wtfos-modloader
 Architecture: pigeon-glasses
 Maintainer: Knifa
-MD5Sum: 26f61c58ba2055268746abbf044f409e
-Size: 278604
-Filename: dji-moonlight-shim_1.0.1_pigeon-glasses.ipk
-Description: Accepts H.264 frames over network/USB from Moonlight.
+MD5Sum: dcc3824d6c41dca5067bb0c677d384fc
+Size: 278582
+Filename: dji-moonlight-shim_1.0.2_pigeon-glasses.ipk
+Description: Stream games to your goggles via Moonlight!
 HomePage: https://github.com/Knifa/dji-moonlight-shim
 
 
