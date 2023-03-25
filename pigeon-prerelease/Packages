@@ -23,14 +23,27 @@ HomePage: https://github.com/d3vl/wtfos-avin-mods
 
 
 Package: dinit
-Version: 0.14.0
+Version: 0.14.0-r2
 Depends: wtfos-system
+Section: system
 Architecture: armv7-3.2
 Maintainer: Joonas Trussmann <joonas@batman.ee>
-MD5Sum: f5f259f007806328d16ff76bd475e050
-Size: 2651788
-Filename: dinit_0.14.0_armv7-3.2.ipk
+MD5Sum: 9b1a83b3de0d5da863469f74619ac3b3
+Size: 2650580
+Filename: dinit_0.14.0-r2_armv7-3.2.ipk
 Description: Service monitoring and init system (0.14.0-wtfos)
+
+
+Package: dji-moonlight-shim
+Version: 1.0.0
+Depends: fan-control wtfos-modloader
+Architecture: pigeon-glasses
+Maintainer: Knifa
+MD5Sum: 54457162e0f71aeb4983dec1b47c7a9b
+Size: 278219
+Filename: dji-moonlight-shim_1.0.0_pigeon-glasses.ipk
+Description: Accepts H.264 frames over network/USB from Moonlight.
+HomePage: https://github.com/Knifa/dji-moonlight-shim
 
 
 Package: fan-control
@@ -164,11 +177,12 @@ HomePage: https://github.com/fpv-wtf/wtfos-modloader
 
 
 Package: wtfos-opkg-config
-Version: 0.4.0
+Version: 1.1.1
+Section: system
 Architecture: armv7-3.2
 Maintainer: Chris L. <stylesuxx@gmail.com>
-MD5Sum: eed58762f261041f883051c4075102c6
-Size: 1222
+MD5Sum: 4389002b43166681859d12303dfae0bc
+Size: 1225
 Filename: wtfos-opkg-config_armv7-3.2.ipk
 Description: Setup opkg.conf based on your hardware.
 
