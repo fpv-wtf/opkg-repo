@@ -39,8 +39,8 @@ Version: 1.0.1
 Depends: fan-control wtfos-modloader
 Architecture: pigeon-glasses
 Maintainer: Knifa
-MD5Sum: 8fd73eaf1078fb27eb1c5428c5746019
-Size: 278599
+MD5Sum: 26f61c58ba2055268746abbf044f409e
+Size: 278604
 Filename: dji-moonlight-shim_1.0.1_pigeon-glasses.ipk
 Description: Accepts H.264 frames over network/USB from Moonlight.
 HomePage: https://github.com/Knifa/dji-moonlight-shim
