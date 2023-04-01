@@ -22,7 +22,8 @@
   {
     "repo": "fpv-wtf/wtfos-tweaks",
     "names": [
-      "tweak-prevent-force-upgrade"
+      "tweak-prevent-force-upgrade",
+      "tweak-fix-bind-loss"
     ]
   },
   {
