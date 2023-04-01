@@ -152,15 +152,28 @@ Description: Enable DJI debug menu on Goggles
 HomePage: https://github.com/fpv-wtf/wtfos-modloader
 
 
+Package: tweak-fix-bind-loss
+Version: 0.1.0
+Depends: dinit
+Architecture: pigeon-glasses-v2
+Maintainer: Joonas Trussmann joonas@batman.ee
+MD5Sum: 159363cad007210503d1a35b44d95579
+Size: 1113
+Filename: tweak-fix-bind-loss_0.1.0_pigeon-glasses-v2.ipk
+Description: Fixes binding loss for AU/Vista when switching from FPV/Avata/O3 mode to DIY mode. Does not currently work the other way around. The glass is half full.
+HomePage: https://github.com/fpv-wtf/wtfos-tweaks
+
+
 Package: tweak-prevent-force-upgrade
 Version: 0.9.3
 Depends: dinit
 Architecture: pigeon-glasses-v2
 Maintainer: Joonas Trussmann joonas@batman.ee
-MD5Sum: ef8d39f4a73898aaabbeb877af91061a
-Size: 2348
+MD5Sum: 355296ba79221c719d8151c1a1bee4a6
+Size: 2400
 Filename: tweak-prevent-force-upgrade_0.9.3_pigeon-glasses-v2.ipk
 Description: Prevents accidental force upgrades on Goggles v2 by connecting to Fly App in DJI FPV Drone mode.
+HomePage: https://github.com/fpv-wtf/wtfos-tweaks
 
 
 Package: wtfos-modloader
