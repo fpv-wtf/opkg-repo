@@ -194,8 +194,8 @@ Version: 1.1.1
 Section: system
 Architecture: armv7-3.2
 Maintainer: Chris L. <stylesuxx@gmail.com>
-MD5Sum: 4389002b43166681859d12303dfae0bc
-Size: 1225
+MD5Sum: f67d34c0e6a2cb3f5f9033e7f47c2d72
+Size: 1234
 Filename: wtfos-opkg-config_armv7-3.2.ipk
 Description: Setup opkg.conf based on your hardware.
 
