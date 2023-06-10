@@ -214,13 +214,13 @@ HomePage: https://github.com/fpv-wtf/wtfos-package-config
 
 
 Package: wtfos-system
-Version: 0.2.1
+Version: 0.2.2
 Section: system
 Architecture: armv7-3.2
 Maintainer: Joonas Trussmann joonas@batman.ee
-MD5Sum: 5892d4060093f00bfb9521828b11c3f6
-Size: 679498
-Filename: wtfos-system_0.2.1_armv7-3.2.ipk
+MD5Sum: c3dc8f03cff624629e9cf1974315a1a1
+Size: 680215
+Filename: wtfos-system_0.2.2_armv7-3.2.ipk
 Description: wtfos startup patches
 HomePage: https://github.com/fpv-wtf/wtfos
 
@@ -231,8 +231,8 @@ Depends: wtfos-system, wtfos-opkg-config, dinit
 Section: system
 Architecture: pigeon-airside
 Maintainer: Joonas Trussmann joonas@batman.ee
-MD5Sum: 01696f3304a372f7dd4ba3ac53233fda
-Size: 628
+MD5Sum: 60907b3ac73c7afc694133503fbc1dab
+Size: 625
 Filename: wtfos_0.3.4_pigeon-airside.ipk
 Description: wtfos meta package
 HomePage: https://github.com/fpv-wtf/wtfos
@@ -244,8 +244,8 @@ Depends: wtfos-system, wtfos-opkg-config, dinit
 Section: system
 Architecture: pigeon-glasses
 Maintainer: Joonas Trussmann joonas@batman.ee
-MD5Sum: 43beb4fa56dcf18b903efd31e6560504
-Size: 629
+MD5Sum: 15cfe58a97754b579ad961f2a0e3774c
+Size: 627
 Filename: wtfos_0.3.4_pigeon-glasses.ipk
 Description: wtfos meta package
 HomePage: https://github.com/fpv-wtf/wtfos
