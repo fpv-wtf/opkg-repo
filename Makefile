@@ -2,7 +2,7 @@ OPKG_UTILS_VERSION = opkg-utils-0.5.0
 OPKG_UTILS_URL = https://git.yoctoproject.org/opkg-utils/snapshot/$(OPKG_UTILS_VERSION).tar.gz
 OPKG_UTILS_PATH = build/$(OPKG_UTILS_VERSION)
 
-all: build entware pigeon
+all: build entware pigeon healthchecks
 	cp index.html build/packages/index.html
 
 pigeon:
@@ -33,6 +33,10 @@ entware-mirror:
 	grep -f entware-packages.txt /tmp/entware-repo.txt > /tmp/entware-download.txt
 	cd entware-armv7sf-k3.2 &&\
 	wget -i /tmp/entware-download.txt
+
+healthchecks:
+	mkdir -p build/healthchecks/
+	wget -O build/healthchecks/healthchecks.tar.gz https://github.com/fpv-wtf/wtfos-healthchecks/releases/latest/download/healthchecks.tar.gz
 
 clean:
 	rm -rf ./build
