@@ -35,8 +35,8 @@ entware-mirror:
 	wget -i /tmp/entware-download.txt
 
 healthchecks:
-	mkdir -p build/healthchecks/
-	wget -O build/healthchecks/healthchecks.tar.gz https://github.com/fpv-wtf/wtfos-healthchecks/releases/latest/download/healthchecks.tar.gz
+	mkdir -p build/packages/healthchecks/
+	wget -O build/packages/healthchecks/healthchecks.tar.gz https://github.com/fpv-wtf/wtfos-healthchecks/releases/latest/download/healthchecks.tar.gz
 
 clean:
 	rm -rf ./build
