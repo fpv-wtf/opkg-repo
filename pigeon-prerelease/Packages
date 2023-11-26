@@ -22,6 +22,17 @@ Description: Exposes configuration options for AV Input; Set PAL/NTSC and more!
 HomePage: https://github.com/d3vl/wtfos-avin-mods
 
 
+Package: avin-startup
+Version: 1.0.0
+Depends: dinit
+Architecture: pigeon-glasses
+Maintainer: Max <max@emulamer.com>
+MD5Sum: 9eb7ca05d21e761b4dd7dc780e3ab80c
+Size: 887
+Filename: avin-startup_1.0.0_pigeon-glasses.ipk
+Description: Automatically switch to AV IN at start up
+
+
 Package: dinit
 Version: 0.14.0-r2
 Depends: wtfos-system
