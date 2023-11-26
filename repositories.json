@@ -98,5 +98,11 @@
     "names": [
       "dji-moonlight-shim"
     ]
+  },
+  {
+    "repo": "emulamer/avin-startup",
+    "names": [
+      "avin-startup"
+    ]
   }
 ]
