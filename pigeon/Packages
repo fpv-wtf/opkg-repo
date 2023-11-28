@@ -23,14 +23,14 @@ HomePage: https://github.com/d3vl/wtfos-avin-mods
 
 
 Package: avin-startup
-Version: 1.0.0
+Version: 1.0.1
 Depends: dinit
 Architecture: pigeon-glasses
 Maintainer: Max <max@emulamer.com>
-MD5Sum: 9eb7ca05d21e761b4dd7dc780e3ab80c
-Size: 887
-Filename: avin-startup_1.0.0_pigeon-glasses.ipk
-Description: Automatically switch to AV IN at start up
+MD5Sum: e8f52f9d1f6b976db6b3fefffd2a2b9f
+Size: 1213
+Filename: avin-startup_1.0.1_pigeon-glasses.ipk
+Description: Automatically switch to AV IN at start up.  Has no effect in O3 mode.
 
 
 Package: dinit
