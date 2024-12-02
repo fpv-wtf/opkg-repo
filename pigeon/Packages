@@ -132,23 +132,35 @@ Version: 0.10.1
 Depends: dinit, wtfos-opkg-config, wtfos-package-config
 Architecture: pigeon-airside
 Maintainer: bri3d
-MD5Sum: bbb2dd782a25a4b086e59bf83a94ca80
-Size: 21417
+MD5Sum: 2535ca794adcfebfa08e5cc6ebdbee2d
+Size: 21550
 Filename: msp-osd_0.10.1_pigeon-airside.ipk
 Description: MSP OSD service for the DJI HD FPV airunit.
 HomePage: https://github.com/fpv-wtf/msp-osd
 
 
 Package: msp-osd
-Version: 0.12.3
+Version: 0.12.4
 Depends: wtfos-modloader, wtfos-package-config
 Architecture: pigeon-glasses
 Maintainer: bri3d
-MD5Sum: 53098de6a25560c443e23d07a0494aed
-Size: 2864239
-Filename: msp-osd_0.12.3_pigeon-glasses.ipk
+MD5Sum: 941110cb4a6b633f11943a30a3a7ae94
+Size: 2866920
+Filename: msp-osd_0.12.4_pigeon-glasses.ipk
 Description: MSP OSD service for the DJI HD FPV goggles.
 HomePage: https://github.com/fpv-wtf/msp-osd
+
+
+Package: o3-osd-recording
+Version: 1.0.0
+Depends: wtfos-modloader-o3
+Architecture: pigeon-glasses-v2
+Maintainer: xNuclearSquirrel
+MD5Sum: 19aa0dd143fd6a8be89c658b909799ee
+Size: 4949
+Filename: o3-osd-recording_1.0.0_pigeon-glasses-v2.ipk
+Description: Enable OSD recording to a file on the O3 air unit
+HomePage: https://github.com/xNuclearSquirrel/O3-OSD-recording
 
 
 Package: tweak-enable-debug-menu
@@ -156,8 +168,8 @@ Version: 0.1.5
 Depends: wtfos-modloader
 Architecture: pigeon-glasses
 Maintainer: Joonas Trussmann <joonas@batman.ee>
-MD5Sum: eeb0e15b94fba5a161e9b40bd50331df
-Size: 2332
+MD5Sum: f7a3b1eade6e73acbb5941bb93e1a36d
+Size: 2331
 Filename: tweak-enable-debug-menu_0.1.5_pigeon-glasses.ipk
 Description: Enable DJI debug menu on Goggles
 HomePage: https://github.com/fpv-wtf/wtfos-modloader
@@ -187,14 +199,27 @@ Description: Prevents accidental force upgrades on Goggles v2 by connecting to F
 HomePage: https://github.com/fpv-wtf/wtfos-tweaks
 
 
+Package: wtfos-modloader-o3
+Version: 0.2.2
+Depends: wtfos-modloader
+Section: system
+Architecture: pigeon-glasses-v2
+Maintainer: Joonas Trussmann <joonas@batman.ee>
+MD5Sum: c577df0b81145be02d1b2b2a4feb3c59
+Size: 913
+Filename: wtfos-modloader-o3_0.2.2_pigeon-glasses-v2.ipk
+Description: Enable modloader for O3 mode
+HomePage: https://github.com/fpv-wtf/wtfos-modloader
+
+
 Package: wtfos-modloader
 Version: 0.2.2
 Depends: wtfos-system
 Section: system
 Architecture: armv7-3.2
 Maintainer: Joonas Trussmann <joonas@batman.ee>
-MD5Sum: 87b0befafc463e4e6f23a4244a22c02d
-Size: 8828
+MD5Sum: 95f4bc3a0a5976f2a0fe9c095913dadc
+Size: 8773
 Filename: wtfos-modloader_0.2.2_armv7-3.2.ipk
 Description: Configurable LD_PRELOAD injector for DJI services
 HomePage: https://github.com/fpv-wtf/wtfos-modloader
