@@ -30,6 +30,7 @@
     "repo": "fpv-wtf/wtfos-modloader",
     "names": [
       "wtfos-modloader",
+      "wtfos-modloader-o3",
       "tweak-enable-debug-menu"
     ]
   },
@@ -103,6 +104,12 @@
     "repo": "emulamer/avin-startup",
     "names": [
       "avin-startup"
+    ]
+  },
+  {
+    "repo": "xNuclearSquirrel/O3-OSD-recording",
+    "names": [
+      "o3-osd-recording"
     ]
   }
 ]
