@@ -151,16 +151,16 @@ Description: MSP OSD service for the DJI HD FPV goggles.
 HomePage: https://github.com/fpv-wtf/msp-osd
 
 
-Package: o3-osd-recording
-Version: 1.0.0
+Package: o3-multipage-osd
+Version: 1.1.4
 Depends: wtfos-modloader-o3
 Architecture: pigeon-glasses-v2
 Maintainer: xNuclearSquirrel
-MD5Sum: 19aa0dd143fd6a8be89c658b909799ee
-Size: 4949
-Filename: o3-osd-recording_1.0.0_pigeon-glasses-v2.ipk
-Description: Enable OSD recording to a file on the O3 air unit
-HomePage: https://github.com/xNuclearSquirrel/O3-OSD-recording
+MD5Sum: 8e5559922a0343535b56a21731f7f9a5
+Size: 8648
+Filename: o3-multipage-osd_1.1.4_pigeon-glasses-v2.ipk
+Description: Enables multipage OSD support, custom fonts, and OSD recording
+HomePage: https://github.com/xNuclearSquirrel/o3-multipage-osd
 
 
 Package: tweak-enable-debug-menu
