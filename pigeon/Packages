@@ -156,8 +156,8 @@ Version: 2.1.0
 Depends: wtfos-modloader-o3, jq
 Architecture: pigeon-glasses-v2
 Maintainer: xNuclearSquirrel
-MD5Sum: 13aeceabbdb9c7e12c2ac4162966f8d0
-Size: 15806337
+MD5Sum: 39852c5f742812972cc8469fce1d54f4
+Size: 15806482
 Filename: o3-multipage-osd_2.1.0_pigeon-glasses-v2.ipk
 Description: Enables multipage OSD support, custom fonts, and OSD recording
 HomePage: https://github.com/xNuclearSquirrel/o3-multipage-osd
