@@ -152,13 +152,13 @@ HomePage: https://github.com/fpv-wtf/msp-osd
 
 
 Package: o3-multipage-osd
-Version: 2.1.0
+Version: 2.1.1
 Depends: wtfos-modloader-o3, jq
 Architecture: pigeon-glasses-v2
 Maintainer: xNuclearSquirrel
-MD5Sum: 39852c5f742812972cc8469fce1d54f4
-Size: 15806482
-Filename: o3-multipage-osd_2.1.0_pigeon-glasses-v2.ipk
+MD5Sum: 69134e53d5d56f1cd226d1ecaf89aade
+Size: 16808887
+Filename: o3-multipage-osd_2.1.1_pigeon-glasses-v2.ipk
 Description: Enables multipage OSD support, custom fonts, and OSD recording
 HomePage: https://github.com/xNuclearSquirrel/o3-multipage-osd
 
