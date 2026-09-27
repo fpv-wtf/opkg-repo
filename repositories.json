@@ -111,5 +111,11 @@
     "names": [
       "o3-multipage-osd"
     ]
+  },
+  {
+    "repo": "btastic/goggles-battery-config",
+    "names": [
+      "battery-config"
+    ]
   }
 ]
