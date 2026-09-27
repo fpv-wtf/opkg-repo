@@ -33,6 +33,18 @@ Filename: avin-startup_1.0.1_pigeon-glasses.ipk
 Description: Automatically switch to AV IN at start up.  Has no effect in O3 mode.
 
 
+Package: battery-config
+Version: 0.1.0
+Depends: wtfos-modloader, wtfos-package-config
+Architecture: pigeon-glasses
+Maintainer: btastic_fpv
+MD5Sum: 69447828f163f4342e14e63ae4d61e83
+Size: 4468
+Filename: battery-config_0.1.0_pigeon-glasses.ipk
+Description: Change battery warning thresholds for your goggles
+HomePage: https://github.com/btastic/goggles-battery-config
+
+
 Package: dinit
 Version: 0.14.0-r2
 Depends: wtfos-system
@@ -152,13 +164,13 @@ HomePage: https://github.com/fpv-wtf/msp-osd
 
 
 Package: o3-multipage-osd
-Version: 2.1.1
+Version: 2.1.1-59x23
 Depends: wtfos-modloader-o3, jq
 Architecture: pigeon-glasses-v2
 Maintainer: xNuclearSquirrel
-MD5Sum: 69134e53d5d56f1cd226d1ecaf89aade
-Size: 16808887
-Filename: o3-multipage-osd_2.1.1_pigeon-glasses-v2.ipk
+MD5Sum: a42749cd5d8f2a988097f0b71bf4dbf0
+Size: 16808519
+Filename: o3-multipage-osd_2.1.1-59x23_pigeon-glasses-v2.ipk
 Description: Enables multipage OSD support, custom fonts, and OSD recording
 HomePage: https://github.com/xNuclearSquirrel/o3-multipage-osd
 

@@ -33,6 +33,18 @@ Filename: avin-startup_1.0.1_pigeon-glasses.ipk
 Description: Automatically switch to AV IN at start up.  Has no effect in O3 mode.
 
 
+Package: battery-config
+Version: 0.1.0
+Depends: wtfos-modloader, wtfos-package-config
+Architecture: pigeon-glasses
+Maintainer: btastic_fpv
+MD5Sum: 69447828f163f4342e14e63ae4d61e83
+Size: 4468
+Filename: battery-config_0.1.0_pigeon-glasses.ipk
+Description: Change battery warning thresholds for your goggles
+HomePage: https://github.com/btastic/goggles-battery-config
+
+
 Package: dinit
 Version: 0.14.0-r2
 Depends: wtfos-system
