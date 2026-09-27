@@ -37,7 +37,7 @@ jobs:
 
       - name: Fetch packages and build index
         env:
-          TOKEN: ${{ secrets.TOKEN }}
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: pipenv run make
 
       - name: Deploy
