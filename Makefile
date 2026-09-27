@@ -1,5 +1,6 @@
 OPKG_UTILS_VERSION = opkg-utils-0.5.0
-OPKG_UTILS_URL = https://git.yoctoproject.org/opkg-utils/snapshot/$(OPKG_UTILS_VERSION).tar.gz
+OPKG_UTILS_TAG = 0.5.0
+OPKG_UTILS_URL = https://git.yoctoproject.org/opkg-utils
 OPKG_UTILS_PATH = build/$(OPKG_UTILS_VERSION)
 
 all: build entware pigeon healthchecks
@@ -19,8 +20,7 @@ build:
 	mkdir -p build/packages
 	mkdir -p build/packages/pigeon
 	mkdir -p build/packages/pigeon-prerelease
-	wget -P build/ $(OPKG_UTILS_URL)
-	tar xzf build/*.tar.gz -C ./build
+	git clone --depth 1 --branch $(OPKG_UTILS_TAG) $(OPKG_UTILS_URL) $(OPKG_UTILS_PATH)
 
 entware: build
 	cp -R entware-armv7sf-k3.2 build/packages/
